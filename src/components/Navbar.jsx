@@ -37,7 +37,7 @@ function Navbar() {
     <header className="header" ref={headerRef} data-header>
       <div className="container">
         <a href="#" className="logo">
-          Hoolix
+          PicoSat
         </a>
         <nav className="navbar" ref={navbarRef} data-navbar>
           <div className="wrapper">

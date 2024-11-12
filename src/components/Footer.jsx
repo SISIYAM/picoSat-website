@@ -7,7 +7,7 @@ function Footer() {
         <div className="container">
           <div className="footer-brand">
             <a href="#" className="logo">
-              Hoolix
+              PicoSat
             </a>
             <p className="footer-text">
               Lorem ipsum dolor sit amet consecte tur adipisicing elit, sed do
@@ -33,31 +33,6 @@ function Footer() {
             <li>
               <a href="#" className="footer-link">
                 Strategy &amp; Research
-              </a>
-            </li>
-            <li>
-              <a href="#" className="footer-link">
-                Web Development
-              </a>
-            </li>
-            <li>
-              <a href="#" className="footer-link">
-                Web Solution
-              </a>
-            </li>
-            <li>
-              <a href="#" className="footer-link">
-                Digital Merketing
-              </a>
-            </li>
-            <li>
-              <a href="#" className="footer-link">
-                App Design
-              </a>
-            </li>
-            <li>
-              <a href="#" className="footer-link">
-                App Development
               </a>
             </li>
           </ul>
@@ -103,7 +78,7 @@ function Footer() {
             <li className="footer-item">
               <ion-icon name="location" aria-hidden="true" />
               <address className="contact-link address">
-                4517 Washington Ave. Manchester, Kentucky 39495
+                Kazi hall, Lalmonirhat
               </address>
             </li>
             <li className="footer-item">
@@ -115,7 +90,7 @@ function Footer() {
             <li className="footer-item">
               <ion-icon name="mail" aria-hidden="true" />
               <a href="mailto:info@hoolix.com" className="contact-link">
-                info@hoolix.com
+                si31siyam@gmail.com
               </a>
             </li>
             <li className="footer-item">
@@ -150,7 +125,7 @@ function Footer() {
           <p className="copyright">
             © 2022 Hoolix | All Rights Reserved by{" "}
             <a href="#" className="copyright-link">
-              codewithsadee
+              PicoSat Software Team
             </a>
           </p>
           <ul className="footer-bottom-list">

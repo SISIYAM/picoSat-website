@@ -11,18 +11,21 @@ const FAQAccordion = () => {
   const faqData = [
     {
       id: 1,
-      title: "01. How to build your own UX strategy?",
-      content: "Your answer content goes here.",
+      title: "01. What is PicoSat Bangladesh?",
+      content:
+        "PicoSat Bangladesh is an educational and research initiative aimed at promoting satellite technology awareness and hands-on learning. Through the project, students and enthusiasts can learn about satellite design, data collection, and ground station operations, helping to pave the way for more advanced space-related projects in Bangladesh.",
     },
     {
       id: 2,
-      title: "02. What makes us unique?",
-      content: "Your answer content goes here.",
+      title: "02. Why is PicoSat Bangladesh important?",
+      content:
+        "The project empowers young engineers and students to gain practical experience with satellite systems, contributing to Bangladesh's growing capabilities in space technology. By learning about satellite operations, participants can develop skills in areas such as data analysis, remote sensing, and communication, all crucial for future space missions.",
     },
     {
       id: 3,
-      title: "03. How can we help with your project?",
-      content: "Your answer content goes here.",
+      title: "03. How can I participate in PicoSat Bangladesh?",
+      content:
+        "Participation is open to students, researchers, and technology enthusiasts. You can join workshops, take part in hands-on satellite building activities, and even contribute to the design and testing phases of our pico-satellite missions. Contact our team for details on how to get involved and make a difference in the space technology sector of Bangladesh.",
     },
   ];
 
