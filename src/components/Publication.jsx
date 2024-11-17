@@ -1,8 +1,12 @@
 import React from "react";
 
-function Features() {
+function Publication() {
   return (
-    <section className="section features" id="features" aria-label="features">
+    <section
+      className="section features"
+      id="publications"
+      aria-label="features"
+    >
       <div className="container">
         <p className="section-subtitle text-center">
           -Explore Our Insights and Discover Our Expertise-
@@ -30,4 +34,4 @@ function Features() {
   );
 }
 
-export default Features;
+export default Publication;

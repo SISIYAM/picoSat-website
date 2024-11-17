@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import FAQAccordion from "../components/FAQAccordion";
-import Features from "../components/Features";
+import Publication from "../components/Publication";
 import AboutSection from "../components/AboutSection";
 import TeamsSection from "../components/TeamsSection";
 import HeroSection from "../components/HeroSection";
@@ -15,8 +15,8 @@ function Home() {
 
       {/* TEAMS Section */}
       <TeamsSection />
-      {/* FEATURES Section */}
-      <Features />
+      {/* Publication Section */}
+      <Publication />
 
       {/* FAQ Section */}
       <FAQAccordion />

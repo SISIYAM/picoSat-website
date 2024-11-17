@@ -42,7 +42,7 @@ function Navbar() {
         <nav className="navbar" ref={navbarRef} data-navbar>
           <div className="wrapper">
             <a href="#" className="logo">
-              Hoolix
+              PicoSat
             </a>
             <button
               className="nav-close-btn"
@@ -65,19 +65,23 @@ function Navbar() {
             </li>
             <li>
               <a href="#services" className="navbar-link" onClick={closeNavbar}>
-                Services
+                Teams
               </a>
             </li>
             <li>
-              <a href="#features" className="navbar-link" onClick={closeNavbar}>
-                Features
+              <a
+                href="#publications"
+                className="navbar-link"
+                onClick={closeNavbar}
+              >
+                Publications
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#" className="navbar-link" onClick={closeNavbar}>
                 Blog
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#" className="navbar-link" onClick={closeNavbar}>
                 Contact Us
