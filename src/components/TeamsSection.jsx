@@ -2,7 +2,7 @@ import React from "react";
 
 function TeamsSection() {
   return (
-    <section className="section service" id="services" aria-label="service">
+    <section className="section service" id="teams" aria-label="service">
       <div className="container">
         <p className="section-subtitle text-center">
           -Meet the Experts Behind Our Success-
@@ -38,7 +38,7 @@ function TeamsSection() {
             </div>
           </li>
 
-          {/* Repeat similar service cards for other services */}
+          {/* Repeat similar service cards for other teams */}
         </ul>
         <a href="#" className="btn btn-primary">
           Get Started
