@@ -4,6 +4,8 @@ import Publication from "../components/Publication";
 import AboutSection from "../components/AboutSection";
 import TeamsSection from "../components/TeamsSection";
 import HeroSection from "../components/HeroSection";
+import ImageGallery from "../components/ImageGallery";
+import PartnersCarousel from "../components/PartnersCarousel";
 
 function Home() {
   return (
@@ -15,6 +17,10 @@ function Home() {
 
       {/* TEAMS Section */}
       <TeamsSection />
+
+      <ImageGallery></ImageGallery>
+      <PartnersCarousel></PartnersCarousel>
+
       {/* Publication Section */}
       <Publication />
 
