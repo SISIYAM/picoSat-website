@@ -1,15 +1,25 @@
-import { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Gallery } from "react-grid-gallery";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
-import { images } from "./Images";
-
-const slides = images.map(({ original }) => ({
-  src: original,
-}));
+import { generateImagesArray } from "./Images";
 
 export default function ImageGallery() {
+  const [images, setImages] = useState([]);
   const [index, setIndex] = useState(-1);
+
+  useEffect(() => {
+    const fetchImages = async () => {
+      const imagesArray = await generateImagesArray();
+      setImages(imagesArray);
+    };
+
+    fetchImages();
+  }, []);
+
+  const slides = images.map(({ original }) => ({
+    src: original,
+  }));
 
   const handleClick = (index, item) => setIndex(index);
 
@@ -21,11 +31,15 @@ export default function ImageGallery() {
         <p className="section-text text-center">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </p>
-        <Gallery
-          images={images}
-          onClick={handleClick}
-          enableImageSelection={false}
-        />
+        {images.length > 0 ? (
+          <Gallery
+            images={images}
+            onClick={handleClick}
+            enableImageSelection={false}
+          />
+        ) : (
+          <p>Loading images...</p>
+        )}
         <Lightbox
           slides={slides}
           open={index >= 0}
