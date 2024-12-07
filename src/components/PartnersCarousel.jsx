@@ -13,7 +13,7 @@ import { Autoplay, Navigation } from "swiper/modules";
 
 export default function App() {
   return (
-    <section className="section service" id="teams" aria-label="service">
+    <section className="section service" id="partners" aria-label="service">
       <div className="container">
         <p className="section-subtitle text-center">-Lorem ipsum dolor-</p>
         <h2 className="h2 section-title text-center">Our Partners</h2>

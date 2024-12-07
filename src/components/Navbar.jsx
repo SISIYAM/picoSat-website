@@ -117,6 +117,15 @@ function Navbar() {
             </li>
             <li>
               <a
+                href="#partners"
+                className="navbar-link"
+                onClick={(e) => handleLinkClick(e, "partners")}
+              >
+                Partners
+              </a>
+            </li>
+            <li>
+              <a
                 href="#gallery"
                 className="navbar-link"
                 onClick={(e) => handleLinkClick(e, "gallery")}
