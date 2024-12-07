@@ -44,7 +44,7 @@ function AboutSection() {
               <div className="btn-icon">
                 <ion-icon name="medal-outline" aria-hidden="true" />
               </div>
-              <span className="span">10+ Years Experience</span>
+              <span className="span"></span>
             </button>
           </div>
         </div>
