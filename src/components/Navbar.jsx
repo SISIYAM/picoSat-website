@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 
-function Navbar() {
+function Navbar({ logoName }) {
   const headerRef = useRef(null);
   const navbarRef = useRef(null);
   const overlayRef = useRef(null);
@@ -63,12 +63,12 @@ function Navbar() {
     <header className="header" ref={headerRef} data-header>
       <div className="container">
         <a href="/" className="logo">
-          PicoSat
+          {logoName}
         </a>
         <nav className="navbar" ref={navbarRef} data-navbar>
           <div className="wrapper">
             <a href="/" className="logo">
-              PicoSat
+              {logoName}
             </a>
             <button
               className="nav-close-btn"
@@ -135,9 +135,9 @@ function Navbar() {
             </li>
             <li>
               <a
-                href="#contact"
+                href="#footer"
                 className="navbar-link"
-                onClick={(e) => handleLinkClick(e, "contact")}
+                onClick={(e) => handleLinkClick(e, "footer")}
               >
                 Contact Us
               </a>

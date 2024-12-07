@@ -11,7 +11,11 @@ function Home() {
   return (
     <article>
       {/* HERO Section */}
-      <HeroSection />
+      <HeroSection
+        description={
+          "We advance Bangladesh’s space tech with affordable CubeSats, empowering students and faculty in satellite innovation and global space economy."
+        }
+      />
       {/* ABOUT Section */}
       <AboutSection />
 
@@ -25,7 +29,7 @@ function Home() {
       <Publication />
 
       {/* FAQ Section */}
-      <FAQAccordion />
+      {/* <FAQAccordion /> */}
     </article>
   );
 }
