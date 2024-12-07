@@ -1,9 +1,9 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import img4 from "../assets/images/partners/b2b.jpg";
-import img5 from "../assets/images/partners/bsmraau_logo.png";
-import img6 from "../assets/images/partners/a2i_logo.svg";
+import img4 from "../assets/images/partners/img-3.png";
+import img5 from "../assets/images/partners/img-2.png";
+import img6 from "../assets/images/partners/img-4.png";
 
 // Import Swiper styles
 import "swiper/css";
@@ -42,7 +42,6 @@ export default function App() {
             <img
               src={img4}
               width={200}
-              style={{ height: "90px" }}
               className="object-contain max-w-full max-h-full"
             />
           </SwiperSlide>
@@ -64,7 +63,6 @@ export default function App() {
             <img
               src={img4}
               width={200}
-              style={{ height: "90px" }}
               className="object-contain max-w-full max-h-full"
             />
           </SwiperSlide>
