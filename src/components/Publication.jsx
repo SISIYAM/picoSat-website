@@ -1,6 +1,23 @@
 import React from "react";
 
 function Publication() {
+  const publicationData = [
+    {
+      title:
+        "Design and Development of an Indigenous Ground Station for LEO Orbit Satellites",
+      description:
+        "This paper details designing an economical, versatile ground station for LEO CubeSats with automated tracking and data acquisition.",
+      link: "https://ieeexplore.ieee.org/document/10421680",
+    },
+  ];
+
+  const truncateDescription = (description, maxWords) => {
+    const words = description.split(" ");
+    return words.length > maxWords
+      ? words.slice(0, maxWords).join(" ") + "..."
+      : description;
+  };
+
   return (
     <section
       className="section features"
@@ -16,18 +33,31 @@ function Publication() {
           Lorem ipsum dolor sit amet consectetur, adipisicing elit.
         </p>
         <ul className="grid-list">
-          <li>
-            <div className="features-card">
-              <data className="card-number" value={"01"}>
-                01
-              </data>
-              <h3 className="h3 card-title">Publication one</h3>
-              <p className="card-text">
-                Nullam ullamcorper condimentum urna eu accumsan.
-              </p>
-            </div>
-          </li>
-          {/* Repeat similar feature cards */}
+          {publicationData.map((publication, index) => (
+            <li key={index}>
+              <div className="features-card">
+                <data className="card-number" value={index + 1}>
+                  {index + 1}
+                </data>
+                <h3 className="h3 card-title">{publication.title}</h3>
+                <p className="card-text">
+                  {truncateDescription(publication.description, 15)}
+                </p>
+                <a
+                  href={publication.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-link"
+                >
+                  <span className="span">Read Publication</span>
+                  <ion-icon
+                    name="arrow-forward-outline"
+                    aria-hidden="true"
+                  ></ion-icon>
+                </a>
+              </div>
+            </li>
+          ))}
         </ul>
       </div>
     </section>
