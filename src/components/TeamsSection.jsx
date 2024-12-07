@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function TeamsSection() {
   const teamData = [
@@ -71,10 +72,10 @@ function TeamsSection() {
                 <div className="card-content">
                   <h3 className="h3 card-title">{team.name}</h3>
                   <p className="card-text">{team.description}</p>
-                  <a href={`team/${team.slug}`} className="btn-link">
+                  <Link to={`team/${team.slug}`} className="btn-link">
                     <span className="span">Read More</span>
                     <ion-icon name="arrow-forward-outline" aria-hidden="true" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </li>

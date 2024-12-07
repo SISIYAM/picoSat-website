@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 function TeamDetails() {
   const members = [
@@ -13,7 +13,9 @@ function TeamDetails() {
       department: "AE (Avionics)",
     },
   ];
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section className="section service" id="services" aria-label="service">
       <div className="container">

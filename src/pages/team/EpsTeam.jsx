@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 function EpsTeam() {
   const members = [
@@ -8,7 +8,9 @@ function EpsTeam() {
       department: "AE (Avionics)",
     },
   ];
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section className="section service" id="services" aria-label="service">
       <div className="container">
