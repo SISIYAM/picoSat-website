@@ -48,9 +48,9 @@ function TeamsSection() {
   return (
     <section className="section service" id="teams" aria-label="service">
       <div className="container">
-        <p className="section-subtitle text-center">
+        {/* <p className="section-subtitle text-center">
           -Meet the Experts Behind Our Success-
-        </p>
+        </p> */}
         <h2 className="h2 section-title text-center">Our Teams</h2>
         <p className="section-text text-center">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.

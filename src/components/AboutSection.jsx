@@ -27,25 +27,11 @@ function AboutSection() {
             combining affordability with high-performance to meet the needs of
             our country.
           </p>
-          <ul className="about-list">
-            <li className="has-before">
-              Price of additional materials or parts (if needed)
-            </li>
-            <li className="has-before">
-              Transportation cost for carrying new materials/parts
-            </li>
-            <li className="has-before">You will get 100% money back offer.</li>
-          </ul>
+
           <div className="btn-group">
             <a href="#" className="btn btn-primary">
               Know More
             </a>
-            <button className="flex-btn">
-              <div className="btn-icon">
-                <ion-icon name="medal-outline" aria-hidden="true" />
-              </div>
-              <span className="span"></span>
-            </button>
           </div>
         </div>
       </div>
