@@ -1,0 +1,21 @@
+.mySwiper {
+  display: flex;
+  align-items: center;
+}
+
+.mySwiper .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+@media (max-width: 480px) {
+  .mySwiper {
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    margin: 0 auto;
+  }
+}
