@@ -6,11 +6,13 @@ function TeamDetails() {
       name: "Muhtasim Redwan",
       id: "23024002",
       department: "AE (Avionics)",
+      role: "Team Leader",
     },
     {
       name: "Md Saymum Islam Siyam",
       id: "23024005",
       department: "AE (Avionics)",
+      role: "Junior Lead",
     },
   ];
   useEffect(() => {
@@ -41,7 +43,24 @@ function TeamDetails() {
                   />
                 </figure>
                 <div className="card-content">
-                  <h3 className="h3 card-title">{member.name}</h3>
+                  <h3 className="h3 card-title">{member.name}</h3>{" "}
+                  <span
+                    style={{
+                      position: "absolute",
+                      top: "10px",
+                      right: "10px",
+                      backgroundColor: "#ff6347",
+                      color: "#fff",
+                      fontSize: "1rem",
+                      fontWeight: "bold",
+                      padding: "5px 10px",
+                      borderRadius: "20px",
+                      boxShadow: "0 2px 4px rgba(0, 0, 0, 0.2)",
+                      zIndex: 1,
+                    }}
+                  >
+                    {member.role}
+                  </span>
                   <p className="card-text">
                     ID: {member.id} <br />
                     Department: {member.department}

@@ -81,9 +81,6 @@ function TeamsSection() {
             </li>
           ))}
         </ul>
-        <a href="#" className="btn btn-primary">
-          Get Started
-        </a>
       </div>
     </section>
   );

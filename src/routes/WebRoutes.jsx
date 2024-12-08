@@ -15,6 +15,8 @@ import GroundStationTeam from "../pages/team/GroundStationTeam";
 import MechanicalTeam from "../pages/team/MechanicalTeam";
 import CcnTeam from "../pages/team/CcnTeam";
 
+import PublicationDetails from "../pages/publications/PublicationDetails";
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
@@ -24,6 +26,7 @@ const router = createBrowserRouter(
       <Route path="team/ground-station" element={<GroundStationTeam />} />
       <Route path="team/mechanical" element={<MechanicalTeam />} />
       <Route path="team/ccn" element={<CcnTeam />} />
+      <Route path="publication/details" element={<PublicationDetails />} />
       <Route path="*" element={<Error />} />
     </Route>
   )

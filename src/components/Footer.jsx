@@ -7,7 +7,7 @@ function Footer() {
         <div className="container">
           <div className="footer-brand">
             <a href="#" className="logo">
-              PicoSat
+              PicoSat4Bangladesh
             </a>
             <p className="footer-text">
               Lorem ipsum dolor sit amet consecte tur adipisicing elit, sed do
@@ -28,7 +28,7 @@ function Footer() {
           </div>
           <ul className="footer-list">
             <li>
-              <p className="footer-list-title">Our Services</p>
+              <p className="footer-list-title">Our Vision</p>
             </li>
             <li>
               <a href="#" className="footer-link">
@@ -45,21 +45,7 @@ function Footer() {
                 About Company
               </a>
             </li>
-            <li>
-              <a href="#" className="footer-link">
-                Our Services
-              </a>
-            </li>
-            <li>
-              <a href="#" className="footer-link">
-                Our Portfolio
-              </a>
-            </li>
-            <li>
-              <a href="#" className="footer-link">
-                Our Blog
-              </a>
-            </li>
+
             <li>
               <a href="#" className="footer-link">
                 Latest News
@@ -123,9 +109,9 @@ function Footer() {
       <div className="footer-bottom">
         <div className="container">
           <p className="copyright">
-            © 2022 Hoolix | All Rights Reserved by{" "}
+            © 2022 PicoSat4Bangladesh | All Rights Reserved by{" "}
             <a href="#" className="copyright-link">
-              PicoSat Software Team
+              PicoSat4Bangladesh
             </a>
           </p>
           <ul className="footer-bottom-list">
