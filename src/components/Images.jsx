@@ -11,7 +11,7 @@ import img9 from "../assets/images/gallery/img-9.jpeg";
 import img10 from "../assets/images/gallery/img-10.jpeg";
 import img11 from "../assets/images/gallery/img-11.jpeg";
 import img12 from "../assets/images/gallery/img-12.jpeg";
-// import img13 from "../assets/images/gallery/img-13.jpeg";
+import img13 from "../assets/images/gallery/img-13.jpeg";
 import img14 from "../assets/images/gallery/img-14.jpeg";
 import img15 from "../assets/images/gallery/img-15.jpeg";
 import img16 from "../assets/images/gallery/img-16.jpeg";
@@ -36,7 +36,7 @@ const imageSources = [
   img10,
   img11,
   img12,
-  // img13,
+  img13,
   img14,
   img15,
   img16,
