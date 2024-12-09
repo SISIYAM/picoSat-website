@@ -17,6 +17,7 @@ const {
   updateMembersEjs,
 } = require("../controllers/UpdateController");
 const { insertTeamEjs } = require("../controllers/InstertController");
+const { deleteTeamEjs } = require("../controllers/DeleteController");
 const router = express.Router();
 
 // route for load login form
@@ -44,6 +45,9 @@ router.post("/update/members/:id", authenticateToken, updateMembersEjs);
 
 // route for insert teams and members
 router.post("/insert/team", authenticateToken, insertTeamEjs);
+
+// route for delete
+router.get("/delete/team/:id", authenticateToken, deleteTeamEjs);
 
 // route for load form content according to key and id
 router.post("/find/content", authenticateToken, laodContent);

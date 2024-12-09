@@ -55,4 +55,26 @@ const deleteMembers = async (req, res) => {
   }
 };
 
-module.exports = { deleteTeams, deleteMembers };
+// method for delete team ejs
+const deleteTeamEjs = async (req, res) => {
+  try {
+    const { id } = req.params;
+
+    const deletedTeam = await Team.findByIdAndDelete(id);
+
+    if (!deletedTeam) {
+      req.flash("error", "Team not found!");
+      return res.redirect("/teams");
+    }
+
+    req.flash("success", "Team deleted successfully");
+    return res.redirect("/teams");
+  } catch (error) {
+    console.error("Error deleting team:", error);
+
+    req.flash("error", "Faild to delete team");
+    return res.redirect("/teams");
+  }
+};
+
+module.exports = { deleteTeams, deleteMembers, deleteTeamEjs };
