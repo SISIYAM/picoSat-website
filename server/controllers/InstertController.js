@@ -52,4 +52,28 @@ const addTeam = async (req, res) => {
   }
 };
 
-module.exports = { addMember, addTeam };
+// method for insert team using ejs
+const insertTeamEjs = async (req, res) => {
+  try {
+    const { teamName, email, description, image } = req.body;
+
+    const newTeam = new Team({
+      teamName,
+      email,
+      description,
+      image,
+    });
+
+    await newTeam.save();
+
+    req.flash("success", "Team Created successfully");
+    return res.redirect("/teams");
+  } catch (error) {
+    console.error("Error inserting team:", error);
+
+    req.flash("error", error.message);
+    return res.redirect("/teams");
+  }
+};
+
+module.exports = { addMember, addTeam, insertTeamEjs };

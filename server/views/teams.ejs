@@ -60,7 +60,17 @@
     </tbody>
   </table>
   <% } else { %>
+
   <!-- If no teams are found, show a message -->
   <div class="alert alert-info">No teams available.</div>
+  <button
+    id="loadInsertModal"
+    class="btn btn-lg btn-primary"
+    data-bs-toggle="modal"
+    data-bs-target="#insertModal"
+    data-key="teams"
+  >
+    Add
+  </button>
   <% } %>
 </div>

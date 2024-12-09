@@ -63,7 +63,7 @@
               aria-label="Close"
             ></button>
           </div>
-          <form id="modalForm" action="" method="post">
+          <form id="insertModalForm" action="" method="post">
             <div class="modal-body my-3" id="insertFormBody">Loading...</div>
             <div class="modal-footer">
               <button
@@ -83,17 +83,7 @@
     </div>
 
     <!-- Main Content -->
-    <div
-      class="container"
-      style="
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-      "
-    >
-      <%- body %>
-    </div>
+    <div class="container"><%- body %></div>
     <%- include('../components/footer') %>
     <!-- jQuery first, then Bootstrap Bundle JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -195,6 +185,7 @@
     <script>
       $("#loadInsertModal").on("click", function () {
         const key = $(this).attr("data-key");
+
         let output = "";
         if (key == "teams") {
           output = `
@@ -211,6 +202,7 @@
               <input type="text" class="form-control" id="image" name="image" value="">
             </div>
           `;
+          $("#insertModalForm").attr("action", `/insert/team`);
         } else if (key == "members") {
           output = ` <div class="mb-3">
               <label for="name" class="form-label">Name</label>
@@ -232,7 +224,13 @@
               <label for="image" class="form-label">Image URL</label>
               <input type="text" class="form-control" id="image" name="image" value="">
             </div>`;
+          $("#insertModalForm").attr("action", `/insert/member`);
         }
+        if (output === "") {
+          output = `<div class="alert alert-danger">No data found!</div>`;
+        }
+
+        $("#insertFormBody").html(output);
       });
     </script>
   </body>
