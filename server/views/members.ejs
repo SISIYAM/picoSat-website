@@ -1,0 +1,68 @@
+<div class="table-responsive my-5">
+  <% if (message.error) { %>
+  <div class="alert alert-danger"><%= message.error %></div>
+  <% } %> <% if (message.success) { %>
+  <div class="alert alert-success"><%= message.success %></div>
+  <% } %> <% if (members && members.length > 0) { %>
+  <button
+    id="loadInsertModal"
+    class="btn btn-sm btn-primary"
+    data-bs-toggle="modal"
+    data-bs-target="#insertModal"
+    data-key="members"
+  >
+    Add
+  </button>
+  <!-- Check if members exist and have entries -->
+  <table id="usersTable" class="table table-striped table-bordered">
+    <thead class="thead-dark">
+      <tr>
+        <th>#</th>
+        <th>Image</th>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Team</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% members.forEach((member, index) => { %>
+      <tr>
+        <td><%= ++index %></td>
+        <td>
+          <img
+            src="<%= member.image %>"
+            alt="<%= member.name %>"
+            style="width: 50px; height: auto"
+          />
+        </td>
+        <td><%= member.id %></td>
+        <td><%= member.name %></td>
+        <td><%= member.email %></td>
+        <td><%= member.team %></td>
+        <td>
+          <button
+            value="<%= member.id %>"
+            class="btn btn-sm btn-primary loadForm"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModalCenter"
+            data-key="members"
+          >
+            Edit
+          </button>
+          <a
+            href="/members/<%= member.id %>/delete"
+            class="btn btn-sm btn-danger"
+            >Delete</a
+          >
+        </td>
+      </tr>
+      <% }) %>
+    </tbody>
+  </table>
+  <% } else { %>
+  <!-- If no teams are found, show a message -->
+  <div class="alert alert-info">No members available.</div>
+  <% } %>
+</div>
