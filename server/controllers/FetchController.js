@@ -4,7 +4,7 @@ const Team = require("../models/Team");
 // method for fetch members
 const fetchMembers = async (req, res) => {
   try {
-    const members = await Member.find();
+    const members = await Member.find().populate("team");
 
     if (!members || members.length === 0) {
       return res.status(404).json({ message: "No records found" });
@@ -27,19 +27,20 @@ const fetchMembers = async (req, res) => {
 // methods for fetch teams
 const fetchTeams = async (req, res) => {
   try {
-    const teams = await Team.find();
-    console.log(teams);
+    const teams = await Team.find().populate("members");
+
     if (!teams || teams.length === 0) {
-      return res.status(404).json({ message: "No records found" });
+      return res.status(404).json({ message: "No teams found" });
     }
+
     res.status(200).json({
-      message: "Teams fetch successfully",
+      message: "Teams and their members fetched successfully",
       data: teams,
     });
   } catch (error) {
-    console.error("Error fetching teams:", error);
+    console.error("Error fetching teams with members:", error);
     res.status(500).json({
-      message: "Failed to fetch teams",
+      message: "Failed to fetch teams with members",
       error: error.message,
     });
   }
