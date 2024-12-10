@@ -22,7 +22,12 @@
         <th>ID</th>
         <th>Name</th>
         <th>Email</th>
+        <th>Department</th>
+        <th>Session</th>
+        <th>LinkedIn</th>
+        <th>ORCID</th>
         <th>Team</th>
+        <th>Role</th>
         <th>Action</th>
       </tr>
     </thead>
@@ -32,7 +37,7 @@
         <td><%= ++index %></td>
         <td>
           <img
-            src="<%= member.image %>"
+            src="<%= member.image || '/default-image.png' %>"
             alt="<%= member.name %>"
             style="width: 50px; height: auto"
           />
@@ -40,7 +45,20 @@
         <td><%= member.id %></td>
         <td><%= member.name %></td>
         <td><%= member.email %></td>
-        <td><%= member.team %></td>
+        <td><%= member.department || 'N/A' %></td>
+        <td><%= member.session || 'N/A' %></td>
+        <td>
+          <% if (member.linkedin) { %>
+          <a href="<%= member.linkedin %>" target="_blank">Profile</a>
+          <% } else { %> N/A <% } %>
+        </td>
+        <td>
+          <% if (member.orcid) { %>
+          <a href="<%= member.orcid %>" target="_blank"><%= member.orcid %></a>
+          <% } else { %> N/A <% } %>
+        </td>
+        <td><%= member.team?.teamName || 'Unassigned' %></td>
+        <td><%= member.role %></td>
         <td>
           <button
             value="<%= member.id %>"
@@ -52,7 +70,7 @@
             Edit
           </button>
           <a
-            href="/members/<%= member.id %>/delete"
+            href="/delete/member/<%= member.id %>"
             class="btn btn-sm btn-danger"
             >Delete</a
           >
@@ -61,8 +79,18 @@
       <% }) %>
     </tbody>
   </table>
+
   <% } else { %>
   <!-- If no teams are found, show a message -->
   <div class="alert alert-info">No members available.</div>
+  <button
+    id="loadInsertModal"
+    class="btn btn-lg btn-primary"
+    data-bs-toggle="modal"
+    data-bs-target="#insertModal"
+    data-key="members"
+  >
+    Add
+  </button>
   <% } %>
 </div>

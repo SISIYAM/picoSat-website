@@ -76,4 +76,43 @@ const insertTeamEjs = async (req, res) => {
   }
 };
 
-module.exports = { addMember, addTeam, insertTeamEjs };
+// method for add members ejs
+const insertMemberEjs = async (req, res) => {
+  try {
+    const {
+      name,
+      email,
+      department,
+      session,
+      linkedin,
+      orcid,
+      team,
+      role,
+      image,
+    } = req.body;
+
+    const newMember = new Member({
+      name,
+      email,
+      department,
+      session,
+      linkedin,
+      orcid,
+      team,
+      role,
+      image,
+    });
+
+    await newMember.save();
+
+    req.flash("success", "Member Created successfully");
+    return res.redirect("/members");
+  } catch (error) {
+    console.error("Error inserting document:", error);
+
+    req.flash("success", "Failed to Created!");
+    return res.redirect("/members");
+  }
+};
+
+module.exports = { addMember, addTeam, insertTeamEjs, insertMemberEjs };

@@ -12,7 +12,6 @@ const membersSchema = new mongoose.Schema({
   },
   department: {
     type: String,
-    required: true,
   },
   session: {
     type: String,
