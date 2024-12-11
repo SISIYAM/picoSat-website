@@ -9,6 +9,7 @@ const teamSchema = new mongoose.Schema(
     },
     slug: {
       type: String,
+      unique: true,
     },
     email: {
       type: String,
