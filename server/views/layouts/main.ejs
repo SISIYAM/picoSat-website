@@ -231,9 +231,13 @@
           <div class="mb-3">
             <label for="team" class="form-label">Team</label>
             <select class="form-control" id="team" name="team" required>
-              <% teams.forEach(team => { %>
-                <option value="<%= team._id %>"><%= team.teamName %></option>
-              <% }) %>
+               <% if (typeof teams !== "undefined" && teams.length > 0) { %>
+                <% teams.forEach(team => { %>
+                  <option value="<%= team._id %>"><%= team.teamName %></option>
+                <% }) %>
+              <% } else { %>
+                <option disabled>No teams available</option>
+              <% } %>
             </select>
           </div>
          <div class="mb-3">
