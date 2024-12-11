@@ -20,8 +20,8 @@ router.post("/create/member", AuthMiddleware, validateMember, addMember);
 router.post("/create/team", AuthMiddleware, validateTeam, addTeam);
 
 // routes for fetch
-router.get("/fetch/members", AuthMiddleware, fetchMembers);
-router.get("/fetch/teams", AuthMiddleware, fetchTeams);
+router.get("/fetch/members", fetchMembers);
+router.get("/fetch/teams", fetchTeams);
 
 // routes for delete
 router.delete(
