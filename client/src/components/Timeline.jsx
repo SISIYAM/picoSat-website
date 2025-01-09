@@ -23,94 +23,87 @@ const Timeline = () => {
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{
-          background: "rgb(33, 150, 243)",
+          background: "#4DBC79",
           color: "#fff",
           backgroundImage: "url('path/to/your/image1.jpg')",
           backgroundSize: "cover", // Ensures the image covers the element area
         }}
         contentArrowStyle={{
-          borderRight: "7px solid rgb(33, 150, 243)",
+          borderRight: "7px solid #4DBC79",
         }}
         date="2011 - present"
         iconStyle={{
-          background: "rgb(33, 150, 243)",
+          background: "#4DBC79",
           color: "#fff",
         }}
         icon={<FontAwesomeIcon icon={faCheckCircle} />}
       >
-        <h3 className="vertical-timeline-element-title">Creative Director</h3>
-        <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-        <p>
-          Creative Direction, User Experience, Visual Design, Project
-          Management, Team Leading
-        </p>
+        <h3 className="vertical-timeline-element-title">
+          Inception: need find out
+        </h3>
       </VerticalTimelineElement>
 
       {/* Unlocked Event */}
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{
-          background: "rgb(33, 150, 243)",
+          background: "#4DBC79",
           color: "#fff",
           backgroundImage: "url('path/to/your/image2.jpg')",
           backgroundSize: "cover", // Ensure image fits element area
         }}
         date="2008 - 2010"
         iconStyle={{
-          background: "rgb(33, 150, 243)",
+          background: "#4DBC79",
           color: "#fff",
         }}
         icon={<FontAwesomeIcon icon={faCheckCircle} />}
       >
-        <h3 className="vertical-timeline-element-title">Web Designer</h3>
-        <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-        <p>User Experience, Visual Design</p>
+        <h3 className="vertical-timeline-element-title">
+          MOU sign: 6th March 2022
+        </h3>
       </VerticalTimelineElement>
 
       {/* Unlocked Event */}
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
         contentStyle={{
-          background: "rgb(233, 30, 99)",
+          background: "#4DBC79",
           color: "#fff",
           backgroundImage: "url('path/to/your/image3.jpg')",
           backgroundSize: "cover",
         }}
         date="April 2013"
         iconStyle={{
-          background: "rgb(233, 30, 99)",
+          background: "#4DBC79",
           color: "#fff",
         }}
         icon={<FontAwesomeIcon icon={faCheckCircle} />}
       >
         <h3 className="vertical-timeline-element-title">
-          Content Marketing for Web, Mobile and Social Media
+          Team Formation: date
         </h3>
-        <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-        <p>Strategy, Social Media</p>
       </VerticalTimelineElement>
 
       {/* Unlocked Event */}
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
         contentStyle={{
-          background: "rgb(233, 30, 99)",
+          background: "#4DBC79",
           color: "#fff",
           backgroundImage: "url('path/to/your/image4.jpg')",
           backgroundSize: "cover",
         }}
         date="2002 - 2006"
         iconStyle={{
-          background: "rgb(233, 30, 99)",
+          background: "#4DBC79",
           color: "#fff",
         }}
         icon={<FontAwesomeIcon icon={faCheckCircle} />}
       >
         <h3 className="vertical-timeline-element-title">
-          Bachelor of Science in Interactive Digital Media Visual Imaging
+          Ground Station Construction
         </h3>
-        <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
-        <p>Creative Direction, Visual Design</p>
       </VerticalTimelineElement>
 
       {/* Locked Events Below */}
@@ -131,11 +124,9 @@ const Timeline = () => {
         }}
         icon={<FontAwesomeIcon icon={faLock} />}
       >
-        <h3 className="vertical-timeline-element-title">Locked Project</h3>
-        <h4 className="vertical-timeline-element-subtitle">
-          San Francisco, CA
-        </h4>
-        <p>This project is currently locked and not accessible yet.</p>
+        <h3 className="vertical-timeline-element-title">
+          Publication of 1st Conference Paper
+        </h3>
       </VerticalTimelineElement>
 
       {/* Locked Event */}
@@ -154,11 +145,9 @@ const Timeline = () => {
         }}
         icon={<FontAwesomeIcon icon={faLock} />}
       >
-        <h3 className="vertical-timeline-element-title">Locked Web Designer</h3>
-        <h4 className="vertical-timeline-element-subtitle">
-          San Francisco, CA
-        </h4>
-        <p>This role is locked and not available yet.</p>
+        <h3 className="vertical-timeline-element-title">
+          Purchase of Space Grade CubeSat{" "}
+        </h3>
       </VerticalTimelineElement>
 
       {/* Locked Event */}
@@ -177,9 +166,149 @@ const Timeline = () => {
         }}
         icon={<FontAwesomeIcon icon={faLock} />}
       >
-        <h3 className="vertical-timeline-element-title">Locked Scrum Master</h3>
-        <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-        <p>This certification is locked and not available yet.</p>
+        <h3 className="vertical-timeline-element-title">
+          Study of the CMOS Purchased
+        </h3>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--education"
+        contentStyle={{
+          background: "gray",
+          color: "#fff",
+          backgroundImage: "url('path/to/your/locked-image3.jpg')",
+          backgroundSize: "cover",
+        }}
+        date="November 2012"
+        iconStyle={{
+          background: "gray",
+          color: "#fff",
+        }}
+        icon={<FontAwesomeIcon icon={faLock} />}
+      >
+        <h3 className="vertical-timeline-element-title">
+          Programming the CubeSat and Ground Station
+        </h3>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--education"
+        contentStyle={{
+          background: "gray",
+          color: "#fff",
+          backgroundImage: "url('path/to/your/locked-image3.jpg')",
+          backgroundSize: "cover",
+        }}
+        date="November 2012"
+        iconStyle={{
+          background: "gray",
+          color: "#fff",
+        }}
+        icon={<FontAwesomeIcon icon={faLock} />}
+      >
+        <h3 className="vertical-timeline-element-title">
+          Constriction of LORA based CubeSat
+        </h3>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--education"
+        contentStyle={{
+          background: "gray",
+          color: "#fff",
+          backgroundImage: "url('path/to/your/locked-image3.jpg')",
+          backgroundSize: "cover",
+        }}
+        date="November 2012"
+        iconStyle={{
+          background: "gray",
+          color: "#fff",
+        }}
+        icon={<FontAwesomeIcon icon={faLock} />}
+      >
+        <h3 className="vertical-timeline-element-title">
+          1st CubeSat Balloon Test
+        </h3>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--education"
+        contentStyle={{
+          background: "gray",
+          color: "#fff",
+          backgroundImage: "url('path/to/your/locked-image3.jpg')",
+          backgroundSize: "cover",
+        }}
+        date="November 2012"
+        iconStyle={{
+          background: "gray",
+          color: "#fff",
+        }}
+        icon={<FontAwesomeIcon icon={faLock} />}
+      >
+        <h3 className="vertical-timeline-element-title">
+          Publication of Balloon Test Research Paper
+        </h3>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--education"
+        contentStyle={{
+          background: "gray",
+          color: "#fff",
+          backgroundImage: "url('path/to/your/locked-image3.jpg')",
+          backgroundSize: "cover",
+        }}
+        date="November 2012"
+        iconStyle={{
+          background: "gray",
+          color: "#fff",
+        }}
+        icon={<FontAwesomeIcon icon={faLock} />}
+      >
+        <h3 className="vertical-timeline-element-title">
+          Building Space Grade CubeSat
+        </h3>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--education"
+        contentStyle={{
+          background: "gray",
+          color: "#fff",
+          backgroundImage: "url('path/to/your/locked-image3.jpg')",
+          backgroundSize: "cover",
+        }}
+        date="November 2012"
+        iconStyle={{
+          background: "gray",
+          color: "#fff",
+        }}
+        icon={<FontAwesomeIcon icon={faLock} />}
+      >
+        <h3 className="vertical-timeline-element-title">
+          Launching the CubeSat
+        </h3>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--education"
+        contentStyle={{
+          background: "gray",
+          color: "#fff",
+          backgroundImage: "url('path/to/your/locked-image3.jpg')",
+          backgroundSize: "cover",
+        }}
+        date="November 2012"
+        iconStyle={{
+          background: "gray",
+          color: "#fff",
+        }}
+        icon={<FontAwesomeIcon icon={faLock} />}
+      >
+        <h3 className="vertical-timeline-element-title">
+          Commercializing the CubeSats at an affordable price
+        </h3>
       </VerticalTimelineElement>
     </VerticalTimeline>
   );

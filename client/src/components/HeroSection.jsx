@@ -1,6 +1,6 @@
 import React from "react";
 
-function HeroSection({ description }) {
+function HeroSection({ title, description }) {
   return (
     <section className="section hero" id="home" aria-label="hero">
       <div className="container">
@@ -8,9 +8,7 @@ function HeroSection({ description }) {
           <p className="hero-subtitle has-before">
             Welcome to Pico Satellite for Bangladesh
           </p>
-          <h1 className="h1 hero-title">
-            Developing research grade CubeSats in Bangladesh
-          </h1>
+          <h1 className="h1 hero-title">{title}</h1>
           <p className="hero-text">{description}</p>
           <div className="btn-group">
             <a href="#" className="btn btn-primary">

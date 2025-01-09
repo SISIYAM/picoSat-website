@@ -14,6 +14,7 @@ function Home() {
     <article>
       {/* HERO Section */}
       <HeroSection
+        title={"Developing and Commercializing Low-Cost CubeSats in Bangladesh"}
         description={
           "We advance Bangladesh’s space tech with affordable CubeSats, empowering students and faculty in satellite innovation and global space economy."
         }

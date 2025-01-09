@@ -151,9 +151,9 @@ function Navbar({ logoName }) {
         >
           <ion-icon name="menu-outline" aria-hidden="true" />
         </button>
-        <a href="#" className="btn-outline">
+        {/* <a href="#" className="btn-outline">
           Let's talk
-        </a>
+        </a> */}
         <div className="overlay" ref={overlayRef} onClick={toggleNavbar} />
       </div>
     </header>

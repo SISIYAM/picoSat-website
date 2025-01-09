@@ -16,9 +16,7 @@ function AboutSection() {
           />
         </figure>
         <div className="about-content">
-          <h2 className="h2-sm section-title">
-            Building a Bright Future with Innovative Satellite Design.
-          </h2>
+          <h2 className="h2-sm section-title">About us</h2>
           <p className="section-text">
             Our team at Pico Satellite for Bangladesh is dedicated to creating
             groundbreaking satellite technology to support Bangladesh’s
