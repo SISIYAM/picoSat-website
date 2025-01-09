@@ -59,7 +59,7 @@ function TeamsSection() {
                     <div className="card-content">
                       <h3 className="h3 card-title">{team.teamName}</h3>
                       <p className="card-text">{team.description}</p>
-                      <Link to={`team/${team.slug}`} className="btn-link">
+                      <Link to={`team/${team._id}`} className="btn-link">
                         <span className="span">Read More</span>
                         <ion-icon
                           name="arrow-forward-outline"

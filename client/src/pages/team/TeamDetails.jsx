@@ -1,23 +1,44 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import axios from "axios"; // Import axios
 
 function TeamDetails() {
-  const members = [
-    {
-      name: "Muhtasim Redwan",
-      id: "23024002",
-      department: "AE (Avionics)",
-      role: "Team Leader",
-    },
-    {
-      name: "Md Saymum Islam Siyam",
-      id: "23024005",
-      department: "AE (Avionics)",
-      role: "Junior Lead",
-    },
-  ];
+  const [members, setMembers] = useState([]);
+  const [loading, setLoading] = useState(true); // Set loading to true initially
+  const [error, setError] = useState(null); // Initialize error state
+
+  const { id } = useParams(); // Destructure the `id` from the URL params
+
   useEffect(() => {
-    window.scrollTo(0, 0);
+    const fetchMembers = async () => {
+      try {
+        const response = await axios.get(
+          `${import.meta.env.VITE_API_URL}/fetch/team/${id}` // Use dynamic `id`
+        );
+        setMembers(response.data.data); // Update state with fetched data
+        console.log(response.data.data); // Optional: log the response for debugging
+      } catch (error) {
+        setError(error.message); // Set error message if the request fails
+      } finally {
+        setLoading(false); // Set loading to false when the request completes
+      }
+    };
+
+    fetchMembers(); // Call the function to fetch data
+  }, [id]); // Add `id` as a dependency so the effect runs when the URL parameter changes
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top when the component mounts
   }, []);
+
+  if (loading) {
+    return <div>Loading...</div>; // Show loading state while data is being fetched
+  }
+
+  if (error) {
+    return <div>Error: {error}</div>; // Show error message if there's an error
+  }
+
   return (
     <section className="section service" id="services" aria-label="service">
       <div className="container">
@@ -43,7 +64,7 @@ function TeamDetails() {
                   />
                 </figure>
                 <div className="card-content">
-                  <h3 className="h3 card-title">{member.name}</h3>{" "}
+                  <h3 className="h3 card-title">{member.name}</h3>
                   <span
                     style={{
                       position: "absolute",
@@ -62,8 +83,8 @@ function TeamDetails() {
                     {member.role}
                   </span>
                   <p className="card-text">
-                    ID: {member.id} <br />
-                    Department: {member.department}
+                    {member.email} <br />
+                    {member.department}
                   </p>
                   <a href="#" className="btn-link">
                     <span className="span">Read More</span>
