@@ -19,11 +19,9 @@ function Home() {
         }
       />
 
-      <Slider></Slider>
-
       {/* ABOUT Section */}
       <AboutSection />
-
+      <Slider></Slider>
       {/* TEAMS Section */}
       <TeamsSection />
       <Timeline />

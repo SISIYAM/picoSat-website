@@ -9,19 +9,19 @@ function HeroSection({ description }) {
             Welcome to Pico Satellite for Bangladesh
           </p>
           <h1 className="h1 hero-title">
-            Innovative Satellite Solutions for Bangladesh’s Future
+            Developing research grade CubeSats in Bangladesh
           </h1>
           <p className="hero-text">{description}</p>
           <div className="btn-group">
             <a href="#" className="btn btn-primary">
-              Discover More
+              Explore Now
             </a>
-            <button className="flex-btn">
+            {/* <button className="flex-btn">
               <div className="btn-icon">
                 <ion-icon name="play" aria-hidden="true" />
               </div>
               <span className="span">How it works</span>
-            </button>
+            </button> */}
           </div>
         </div>
         <figure className="hero-banner">

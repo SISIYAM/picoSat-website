@@ -28,11 +28,11 @@ function AboutSection() {
             our country.
           </p>
 
-          <div className="btn-group">
+          {/* <div className="btn-group">
             <a href="#" className="btn btn-primary">
               Know More
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
