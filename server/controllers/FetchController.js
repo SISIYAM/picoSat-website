@@ -1,5 +1,6 @@
 const Member = require("../models/Member");
 const Team = require("../models/Team");
+const { ObjectId } = require("mongodb");
 
 // method for fetch members
 const fetchMembers = async (req, res) => {
@@ -47,6 +48,29 @@ const fetchTeams = async (req, res) => {
 };
 
 // method for fetch individual teams data
-const individualTeams = (req, res) => {};
+const individualTeams = async (req, res) => {
+  const { id } = req.params;
 
-module.exports = { fetchMembers, fetchTeams };
+  try {
+    // validate if `id` is a valid ObjectId
+    if (!ObjectId.isValid(id)) {
+      return res.status(400).json({ message: "Invalid team ID" });
+    }
+
+    // find team members based on team ID
+    const members = await Member.find({ team: new ObjectId(id) });
+
+    res.status(200).json({
+      success: true,
+      data: members,
+    });
+  } catch (error) {
+    console.error("Error fetching teams with members:", error);
+    res.status(500).json({
+      message: "Failed to fetch teams with members",
+      error: error.message,
+    });
+  }
+};
+
+module.exports = { fetchMembers, fetchTeams, individualTeams };

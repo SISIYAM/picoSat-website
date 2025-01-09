@@ -4,7 +4,11 @@ const router = express.Router();
 const { addMember, addTeam } = require("../controllers/InstertController");
 const validateMember = require("../middlewares/validateMember");
 const validateTeam = require("../middlewares/validateTeam");
-const { fetchMembers, fetchTeams } = require("../controllers/FetchController");
+const {
+  fetchMembers,
+  fetchTeams,
+  individualTeams,
+} = require("../controllers/FetchController");
 const {
   deleteTeams,
   deleteMembers,
@@ -22,6 +26,9 @@ router.post("/create/team", AuthMiddleware, validateTeam, addTeam);
 // routes for fetch
 router.get("/fetch/members", fetchMembers);
 router.get("/fetch/teams", fetchTeams);
+
+// routes for find members based on teams
+router.get("/fetch/team/:id", individualTeams);
 
 // routes for delete
 router.delete(

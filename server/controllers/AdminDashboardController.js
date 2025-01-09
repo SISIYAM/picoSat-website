@@ -58,7 +58,6 @@ const laodMembers = async (req, res) => {
     // fetch teams
     const members = await Member.find({}).populate("team");
     const teams = await Team.find({});
-    console.log(members);
     res.render("members", { members, teams, isLoggedIn, message: req.flash() });
   } catch (error) {
     console.error("Error loading members:", error);
