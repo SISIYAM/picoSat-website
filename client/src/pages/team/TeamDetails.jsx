@@ -31,10 +31,6 @@ function TeamDetails() {
     window.scrollTo(0, 0); // Scroll to the top when the component mounts
   }, []);
 
-  if (loading) {
-    return <div>Loading...</div>; // Show loading state while data is being fetched
-  }
-
   if (error) {
     return <div>Error: {error}</div>; // Show error message if there's an error
   }
@@ -49,6 +45,7 @@ function TeamDetails() {
         <p className="section-text text-center">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </p>
+        {loading && <h1>Loading...</h1>}
         <ul className="grid-list">
           {members.map((member, index) => (
             <li key={index}>
