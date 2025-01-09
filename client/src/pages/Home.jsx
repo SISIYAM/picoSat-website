@@ -7,6 +7,7 @@ import HeroSection from "../components/HeroSection";
 import ImageGallery from "../components/ImageGallery";
 import PartnersCarousel from "../components/PartnersCarousel";
 import Slider from "../components/Slider";
+import Timeline from "../components/Timeline";
 
 function Home() {
   return (
@@ -25,7 +26,7 @@ function Home() {
 
       {/* TEAMS Section */}
       <TeamsSection />
-
+      <Timeline />
       <ImageGallery></ImageGallery>
       <PartnersCarousel></PartnersCarousel>
 
