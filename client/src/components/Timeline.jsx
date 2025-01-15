@@ -52,7 +52,7 @@ const Timeline = () => {
           contentArrowStyle={{
             borderRight: "7px solid #4DBC79",
           }}
-          date="2011 - present"
+          date=""
           iconStyle={{
             background: "#4DBC79",
             color: "#fff",
@@ -61,15 +61,15 @@ const Timeline = () => {
           iconOnClick={() =>
             handleOpenModal(
               "Inception: need find out",
-              "2011 - present",
-              "Description for inception event."
+              "",
+              "The journey of Pico satellite for Bangladesh project started back in 2019, at a two-day convention of NRB (Non-Resident Bangladeshis) engineers held by Economic Relations Division (ERD), A2I (Access to information in Bangladesh) and Bridge 2 Bangladesh jointly. A total of nine business sessions were held in the two-day conference. In the sessions, NRB engineers presented their innovative project proposals. Among those proposals, Professor Dr. Nazmul Ula, Associate Dean and Professor of Electrical and Computer Engineering at Loyola Marymount University in the United States who is also a valiant freedom fighter, shared his thoughts on developing space program in Bangladesh. He said, “The Bangabandhu Satellite-1 is Bangladesh's first geostationary communications and broadcasting satellite, it is of course a big achievement, besides this if we make number of small satellites to monitor the change of climate and weather. We propose to set up a Bangladesh space agency (BASA). Later we can provide training for the young engineers. It’s very effective to give an extra dimension with others developing country”. From there, an idea of developing a series of Pico satellites or cube satellites locally that are low in cost but high in return was developed"
             )
           }
           onTimelineElementClick={() =>
             handleOpenModal(
               "Inception: need find out",
-              "2011 - present",
-              "Description for inception event."
+              "",
+              "The journey of Pico satellite for Bangladesh project started back in 2019, at a two-day convention of NRB (Non-Resident Bangladeshis) engineers held by Economic Relations Division (ERD), A2I (Access to information in Bangladesh) and Bridge 2 Bangladesh jointly. A total of nine business sessions were held in the two-day conference. In the sessions, NRB engineers presented their innovative project proposals. Among those proposals, Professor Dr. Nazmul Ula, Associate Dean and Professor of Electrical and Computer Engineering at Loyola Marymount University in the United States who is also a valiant freedom fighter, shared his thoughts on developing space program in Bangladesh. He said, “The Bangabandhu Satellite-1 is Bangladesh's first geostationary communications and broadcasting satellite, it is of course a big achievement, besides this if we make number of small satellites to monitor the change of climate and weather. We propose to set up a Bangladesh space agency (BASA). Later we can provide training for the young engineers. It’s very effective to give an extra dimension with others developing country”. From there, an idea of developing a series of Pico satellites or cube satellites locally that are low in cost but high in return was developed"
             )
           }
         >
@@ -95,16 +95,16 @@ const Timeline = () => {
           icon={<FontAwesomeIcon icon={faCheckCircle} />}
           iconOnClick={() =>
             handleOpenModal(
-              "Inception: need find out",
-              "2011 - present",
-              "Description for inception event."
+              "MOU sign: 6th March 2022",
+              "",
+              "A tripartite MoU (Memorandum of Understanding) for commercial production of space-life suitable modules in Bangladesh was signed on 6th March 2022. Our university signed the MoU with Bridge to Bangladesh (B2B), Aspire to Innovate (A2I), and Pico Satellite Company.Air Commodore Mohmmad Abdullah Al Mahbub on behalf of BSMRAAU, Faruq Ahmed Jewel, Head of Technology of A2I, Sajedul Islam, Vice President of B2B, and Professor Dr. Nazmul Ula signed the MoU for establishing Pico Satellite labs."
             )
           }
           onTimelineElementClick={() =>
             handleOpenModal(
               "MOU sign: 6th March 2022",
-              "2011 - present",
-              "Description for inception event."
+              "",
+              "A tripartite MoU (Memorandum of Understanding) for commercial production of space-life suitable modules in Bangladesh was signed on 6th March 2022. Our university signed the MoU with Bridge to Bangladesh (B2B), Aspire to Innovate (A2I), and Pico Satellite Company.Air Commodore Mohmmad Abdullah Al Mahbub on behalf of BSMRAAU, Faruq Ahmed Jewel, Head of Technology of A2I, Sajedul Islam, Vice President of B2B, and Professor Dr. Nazmul Ula signed the MoU for establishing Pico Satellite labs."
             )
           }
         >
@@ -130,16 +130,22 @@ const Timeline = () => {
           icon={<FontAwesomeIcon icon={faCheckCircle} />}
           iconOnClick={() =>
             handleOpenModal(
-              "Inception: need find out",
-              "2011 - present",
-              "Description for inception event."
+              "Team Formation: date",
+              "",
+              `Under the supervision of Professor Dr. Nazmul Ula, BSMRAAU started Pico Satellite for Bangladesh with 6 teams, namely- Ground Station, Electronics and Power System, Mechanical, Communication, Control and Navigation, Software Team , documentation and finance team. The main objective of this project is to commercialize the manufacture of cube satellites having a 10 cm x 10 cm x 10 cm dimension and weighing not more than 1.3 kg. Besides commercializing the manufacturing process, the project also envisions for -
+•	International collaboration on research in the field of design, development, and launching of CubeSats.  
+•	International collaboration and cooperation with Pico Satellite Company. `
             )
           }
           onTimelineElementClick={() =>
             handleOpenModal(
-              "Inception: need find out",
-              "2011 - present",
-              "Description for inception event."
+              "Team Formation: date",
+              "",
+              `Under the supervision of Professor Dr. Nazmul Ula, BSMRAAU started Pico Satellite for Bangladesh with 6 teams, namely- Ground Station, Electronics and Power System, Mechanical, Communication, Control and Navigation, Software Team , documentation and finance team. The main objective of this project is to commercialize the manufacture of cube satellites having a 10 cm x 10 cm x 10 cm dimension and weighing not more than 1.3 kg. Besides commercializing the manufacturing process, the project also envisions for
+
+
+              •	International collaboration on research in the field of design, development, and launching of CubeSats.  
+              •	International collaboration and cooperation with Pico Satellite Company. `
             )
           }
         >
@@ -165,16 +171,16 @@ const Timeline = () => {
           icon={<FontAwesomeIcon icon={faCheckCircle} />}
           iconOnClick={() =>
             handleOpenModal(
-              "Inception: need find out",
-              "2011 - present",
-              "Description for inception event."
+              "Ground Station Construction",
+              "",
+              `After accomplishing to make a 137 MHz QFH antenna , a cost-effective ground station installed with an automated tracking system was designed and built, on which a conference paper titled “Design and Development of an Indigenous Ground Station for LEO Orbit Satellites” was published from IEEE. To test the automated tracking system, a cross Yagi antenna was also designed. The tracking system corrects the azimuth and elevation as the satellite passes over the head.  The azimuth and elevation information were calculated using Two Line Element Set (TLE) of the sattelite using a raspberry pi, then according the that calculation the azimuth and elevation was controlled .`
             )
           }
           onTimelineElementClick={() =>
             handleOpenModal(
-              "Inception: need find out",
-              "2011 - present",
-              "Description for inception event."
+              "Ground Station Construction",
+              "",
+              `After accomplishing to make a 137 MHz QFH antenna , a cost-effective ground station installed with an automated tracking system was designed and built, on which a conference paper titled “Design and Development of an Indigenous Ground Station for LEO Orbit Satellites” was published from IEEE. To test the automated tracking system, a cross Yagi antenna was also designed. The tracking system corrects the azimuth and elevation as the satellite passes over the head.  The azimuth and elevation information were calculated using Two Line Element Set (TLE) of the sattelite using a raspberry pi, then according the that calculation the azimuth and elevation was controlled .`
             )
           }
         >
@@ -189,29 +195,29 @@ const Timeline = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{
-            background: "gray",
+            background: "#4DBC79",
             color: "#fff",
             backgroundImage: "url('path/to/your/locked-image1.jpg')",
             backgroundSize: "cover",
           }}
           date="2010 - 2011"
           iconStyle={{
-            background: "gray",
+            background: "#4DBC79",
             color: "#fff",
           }}
           icon={<FontAwesomeIcon icon={faLock} />}
           iconOnClick={() =>
             handleOpenModal(
-              "Inception: need find out",
-              "2011 - present",
-              "Description for inception event."
+              "Publication of 1st Conference Paper",
+              "",
+              `After installing a cost-effective ground station  with an automated tracking system  a conference paper titled “Design and Development of an Indigenous Ground Station for LEO Orbit Satellites” was published from IEEE .`
             )
           }
           onTimelineElementClick={() =>
             handleOpenModal(
-              "Inception: need find out",
-              "2011 - present",
-              "Description for inception event."
+              "Publication of 1st Conference Paper",
+              "",
+              `After installing a cost-effective ground station  with an automated tracking system  a conference paper titled “Design and Development of an Indigenous Ground Station for LEO Orbit Satellites” was published from IEEE .`
             )
           }
         >
@@ -224,28 +230,28 @@ const Timeline = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{
-            background: "gray",
+            background: "#4DBC79",
             color: "#fff",
             backgroundImage: "url('path/to/your/locked-image2.jpg')",
             backgroundSize: "cover",
           }}
           date="2006 - 2008"
           iconStyle={{
-            background: "gray",
+            background: "#4DBC79",
             color: "#fff",
           }}
           icon={<FontAwesomeIcon icon={faLock} />}
           iconOnClick={() =>
             handleOpenModal(
-              "Inception: need find out",
-              "2011 - present",
+              "Purchase of Space Grade CubeSat",
+              "",
               "Description for inception event."
             )
           }
           onTimelineElementClick={() =>
             handleOpenModal(
-              "Inception: need find out",
-              "2011 - present",
+              "Purchase of Space Grade CubeSat",
+              "",
               "Description for inception event."
             )
           }
@@ -259,28 +265,28 @@ const Timeline = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           contentStyle={{
-            background: "gray",
+            background: "#4DBC79",
             color: "#fff",
             backgroundImage: "url('path/to/your/locked-image3.jpg')",
             backgroundSize: "cover",
           }}
           date="November 2012"
           iconStyle={{
-            background: "gray",
+            background: "#4DBC79",
             color: "#fff",
           }}
           icon={<FontAwesomeIcon icon={faLock} />}
           iconOnClick={() =>
             handleOpenModal(
-              "Inception: need find out",
-              "2011 - present",
+              "Study of the CMOS Purchased",
+              "",
               "Description for inception event."
             )
           }
           onTimelineElementClick={() =>
             handleOpenModal(
-              "Inception: need find out",
-              "2011 - present",
+              "Study of the CMOS Purchased",
+              "",
               "Description for inception event."
             )
           }
@@ -293,28 +299,28 @@ const Timeline = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           contentStyle={{
-            background: "gray",
+            background: "#4DBC79",
             color: "#fff",
             backgroundImage: "url('path/to/your/locked-image3.jpg')",
             backgroundSize: "cover",
           }}
           date="November 2012"
           iconStyle={{
-            background: "gray",
+            background: "#4DBC79",
             color: "#fff",
           }}
           icon={<FontAwesomeIcon icon={faLock} />}
           iconOnClick={() =>
             handleOpenModal(
-              "Inception: need find out",
-              "2011 - present",
+              "Programming the CubeSat and Ground Station",
+              "",
               "Description for inception event."
             )
           }
           onTimelineElementClick={() =>
             handleOpenModal(
-              "Inception: need find out",
-              "2011 - present",
+              "Programming the CubeSat and Ground Station",
+              "",
               "Description for inception event."
             )
           }
@@ -327,28 +333,28 @@ const Timeline = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           contentStyle={{
-            background: "gray",
+            background: "#4DBC79",
             color: "#fff",
             backgroundImage: "url('path/to/your/locked-image3.jpg')",
             backgroundSize: "cover",
           }}
           date="November 2012"
           iconStyle={{
-            background: "gray",
+            background: "#4DBC79",
             color: "#fff",
           }}
           icon={<FontAwesomeIcon icon={faLock} />}
           iconOnClick={() =>
             handleOpenModal(
-              "Inception: need find out",
-              "2011 - present",
+              "Constriction of LORA based CubeSat",
+              "",
               "Description for inception event."
             )
           }
           onTimelineElementClick={() =>
             handleOpenModal(
-              "Inception: need find out",
-              "2011 - present",
+              "Constriction of LORA based CubeSat",
+              "",
               "Description for inception event."
             )
           }
@@ -361,28 +367,28 @@ const Timeline = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           contentStyle={{
-            background: "gray",
+            background: "#4DBC79",
             color: "#fff",
             backgroundImage: "url('path/to/your/locked-image3.jpg')",
             backgroundSize: "cover",
           }}
           date="November 2012"
           iconStyle={{
-            background: "gray",
+            background: "#4DBC79",
             color: "#fff",
           }}
           icon={<FontAwesomeIcon icon={faLock} />}
           iconOnClick={() =>
             handleOpenModal(
-              "Inception: need find out",
-              "2011 - present",
+              "1st CubeSat Balloon Test",
+              "",
               "Description for inception event."
             )
           }
           onTimelineElementClick={() =>
             handleOpenModal(
-              "Inception: need find out",
-              "2011 - present",
+              "1st CubeSat Balloon Test",
+              "",
               "Description for inception event."
             )
           }
@@ -408,15 +414,15 @@ const Timeline = () => {
           icon={<FontAwesomeIcon icon={faLock} />}
           iconOnClick={() =>
             handleOpenModal(
-              "Inception: need find out",
-              "2011 - present",
+              "Publication of Balloon Test Research Paper",
+              "",
               "Description for inception event."
             )
           }
           onTimelineElementClick={() =>
             handleOpenModal(
-              "Inception: need find out",
-              "2011 - present",
+              "Publication of Balloon Test Research Paper",
+              "",
               "Description for inception event."
             )
           }
@@ -442,15 +448,15 @@ const Timeline = () => {
           icon={<FontAwesomeIcon icon={faLock} />}
           iconOnClick={() =>
             handleOpenModal(
-              "Inception: need find out",
-              "2011 - present",
+              "Building Space Grade CubeSat",
+              "",
               "Description for inception event."
             )
           }
           onTimelineElementClick={() =>
             handleOpenModal(
-              "Inception: need find out",
-              "2011 - present",
+              "Building Space Grade CubeSat",
+              "",
               "Description for inception event."
             )
           }
@@ -476,15 +482,15 @@ const Timeline = () => {
           icon={<FontAwesomeIcon icon={faLock} />}
           iconOnClick={() =>
             handleOpenModal(
-              "Inception: need find out",
-              "2011 - present",
+              "Launching the CubeSat",
+              "",
               "Description for inception event."
             )
           }
           onTimelineElementClick={() =>
             handleOpenModal(
-              "Inception: need find out",
-              "2011 - present",
+              "Launching the CubeSat",
+              "",
               "Description for inception event."
             )
           }
@@ -510,15 +516,15 @@ const Timeline = () => {
           icon={<FontAwesomeIcon icon={faLock} />}
           iconOnClick={() =>
             handleOpenModal(
-              "Inception: need find out",
-              "2011 - present",
+              "Commercializing the CubeSats at an affordable price",
+              "",
               "Description for inception event."
             )
           }
           onTimelineElementClick={() =>
             handleOpenModal(
-              "Inception: need find out",
-              "2011 - present",
+              "Commercializing the CubeSats at an affordable price",
+              "",
               "Description for inception event."
             )
           }

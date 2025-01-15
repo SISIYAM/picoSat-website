@@ -16,7 +16,7 @@ function Home() {
       <HeroSection
         title={"Developing and Commercializing Low-Cost CubeSats in Bangladesh"}
         description={
-          "We advance Bangladesh’s space tech with affordable CubeSats, empowering students and faculty in satellite innovation and global space economy."
+          "We dream of developing a cost-effective CubeSat that helps Bangladeshi students to awaken their latent talents in satellite or space exploration and also open the door to space exploration in Bangladesh at par with other countries in the world."
         }
       />
 

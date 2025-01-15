@@ -18,12 +18,13 @@ function AboutSection() {
         <div className="about-content">
           <h2 className="h2-sm section-title">About us</h2>
           <p className="section-text">
-            Our team at Pico Satellite for Bangladesh is dedicated to creating
-            groundbreaking satellite technology to support Bangladesh’s
-            advancement in space research and exploration. We design and develop
-            cutting-edge pico and CubeSats that are tailored for success,
-            combining affordability with high-performance to meet the needs of
-            our country.
+            Our team "Pico Satellite for Bangladesh " is interested in
+            developing A modern , cost-effective and high-performance cube
+            satellite that will make a significant contribution to the
+            development of Bangladesh's space research and exploration as well
+            as to the progress of the research activities of students , teachers
+            and researchers of higher education institutions at
+            home and abroad .
           </p>
 
           {/* <div className="btn-group">
