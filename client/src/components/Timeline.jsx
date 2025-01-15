@@ -205,7 +205,7 @@ const Timeline = () => {
             background: "#4DBC79",
             color: "#fff",
           }}
-          icon={<FontAwesomeIcon icon={faLock} />}
+          icon={<FontAwesomeIcon icon={faCheckCircle} />}
           iconOnClick={() =>
             handleOpenModal(
               "Publication of 1st Conference Paper",
@@ -240,7 +240,7 @@ const Timeline = () => {
             background: "#4DBC79",
             color: "#fff",
           }}
-          icon={<FontAwesomeIcon icon={faLock} />}
+          icon={<FontAwesomeIcon icon={faCheckCircle} />}
           iconOnClick={() =>
             handleOpenModal(
               "Purchase of Space Grade CubeSat",
@@ -275,7 +275,7 @@ const Timeline = () => {
             background: "#4DBC79",
             color: "#fff",
           }}
-          icon={<FontAwesomeIcon icon={faLock} />}
+          icon={<FontAwesomeIcon icon={faCheckCircle} />}
           iconOnClick={() =>
             handleOpenModal(
               "Study of the CMOS Purchased",
@@ -309,7 +309,7 @@ const Timeline = () => {
             background: "#4DBC79",
             color: "#fff",
           }}
-          icon={<FontAwesomeIcon icon={faLock} />}
+          icon={<FontAwesomeIcon icon={faCheckCircle} />}
           iconOnClick={() =>
             handleOpenModal(
               "Programming the CubeSat and Ground Station",
@@ -343,7 +343,7 @@ const Timeline = () => {
             background: "#4DBC79",
             color: "#fff",
           }}
-          icon={<FontAwesomeIcon icon={faLock} />}
+          icon={<FontAwesomeIcon icon={faCheckCircle} />}
           iconOnClick={() =>
             handleOpenModal(
               "Constriction of LORA based CubeSat",
@@ -377,7 +377,7 @@ const Timeline = () => {
             background: "#4DBC79",
             color: "#fff",
           }}
-          icon={<FontAwesomeIcon icon={faLock} />}
+          icon={<FontAwesomeIcon icon={faCheckCircle} />}
           iconOnClick={() =>
             handleOpenModal(
               "1st CubeSat Balloon Test",
