@@ -99,6 +99,15 @@ function Navbar({ logoName }) {
             </li>
             <li>
               <a
+                href="#leaders"
+                className="navbar-link"
+                onClick={(e) => handleLinkClick(e, "leaders")}
+              >
+                Leaders
+              </a>
+            </li>
+            <li>
+              <a
                 href="#teams"
                 className="navbar-link"
                 onClick={(e) => handleLinkClick(e, "teams")}

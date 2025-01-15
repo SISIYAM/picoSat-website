@@ -72,8 +72,8 @@ function LeadersSection() {
                     className="btn-link"
                     onClick={(e) => e.preventDefault()}
                   >
-                    <span className="span">Read More</span>
-                    <ion-icon name="arrow-forward-outline" aria-hidden="true" />
+                    {/* <span className="span">Read More</span>
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true" /> */}
                   </a>
                 </div>
               </div>
