@@ -17,7 +17,7 @@ function AboutSection() {
         </figure>
         <div className="about-content">
           <h2 className="h2-sm section-title">About us</h2>
-          <p className="section-text">
+          <p className="section-text" style={{ textAlign: "justify" }}>
             Our team "Pico Satellite for Bangladesh " is interested in
             developing A modern , cost-effective and high-performance cube
             satellite that will make a significant contribution to the

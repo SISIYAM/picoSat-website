@@ -9,7 +9,9 @@ function HeroSection({ title, description }) {
             Welcome to Pico Satellite for Bangladesh
           </p>
           <h1 className="h2 hero-title">{title}</h1>
-          <p className="hero-text">{description}</p>
+          <p className="hero-text" style={{ textAlign: "justify" }}>
+            {description}
+          </p>
           <div className="btn-group">
             <a href="#" className="btn btn-primary">
               Explore Now
