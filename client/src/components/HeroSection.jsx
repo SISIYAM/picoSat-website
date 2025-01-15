@@ -8,10 +8,8 @@ function HeroSection({ title, description }) {
           <p className="hero-subtitle has-before">
             Welcome to Pico Satellite for Bangladesh
           </p>
-          <h1 className="h1 hero-title">{title}</h1>
-          <p className="hero-text" style={{ fontSize: "20px" }}>
-            {description}
-          </p>
+          <h1 className="h2 hero-title">{title}</h1>
+          <p className="hero-text">{description}</p>
           <div className="btn-group">
             <a href="#" className="btn btn-primary">
               Explore Now
