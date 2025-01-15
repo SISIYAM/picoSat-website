@@ -37,7 +37,7 @@ const Timeline = () => {
 
   return (
     <div>
-      <h2 className="h2 section-title text-center">Our Journey?</h2>
+      <h2 className="h2 section-title text-center">Our Journey</h2>
       <p className="section-text text-center">
         {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. */}
       </p>
@@ -382,14 +382,14 @@ const Timeline = () => {
             handleOpenModal(
               "1st CubeSat Balloon Test",
               "",
-              "Description for inception event."
+              "Till now, the biggest achievement of the team is their successful balloon testing. On 28th February 2024, on the Fifth Foundation Anniversary of BSMRAAU, a commercially off the shelf satellite was attached to a ballon and sent to an altitude of 1126 feet. The on-board software programmed, and the payload board was designed by the picosatellite team. Alongside that a ground station was also designed by the team with a dashboard which showed the data received from the satellite. Temperature, pressure, altitude, and satellite camera images were recorded and sent to the ground station using the cube satellite. This type of test is the first in Bangladesh"
             )
           }
           onTimelineElementClick={() =>
             handleOpenModal(
               "1st CubeSat Balloon Test",
               "",
-              "Description for inception event."
+              "Till now, the biggest achievement of the team is their successful balloon testing. On 28th February 2024, on the Fifth Foundation Anniversary of BSMRAAU, a commercially off the shelf satellite was attached to a ballon and sent to an altitude of 1126 feet. The on-board software programmed, and the payload board was designed by the picosatellite team. Alongside that a ground station was also designed by the team with a dashboard which showed the data received from the satellite. Temperature, pressure, altitude, and satellite camera images were recorded and sent to the ground station using the cube satellite. This type of test is the first in Bangladesh"
             )
           }
         >

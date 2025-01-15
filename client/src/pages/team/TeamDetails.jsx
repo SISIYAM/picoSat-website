@@ -39,7 +39,7 @@ function TeamDetails() {
     <section className="section service" id="services" aria-label="service">
       <div className="container">
         <p className="section-subtitle text-center">
-          -Meet the Experts Behind Our Success-
+          {/* -Meet the Experts Behind Our Success- */}
         </p>
         <h2 className="h2 section-title text-center">{teamName}</h2>
         <p className="section-text text-center">
