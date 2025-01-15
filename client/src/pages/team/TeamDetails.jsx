@@ -4,35 +4,35 @@ import axios from "axios"; // Import axios
 
 function TeamDetails() {
   const [members, setMembers] = useState([]);
-  const [loading, setLoading] = useState(true); // Set loading to true initially
-  const [error, setError] = useState(null); // Initialize error state
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
-  const { id } = useParams(); // Destructure the `id` from the URL params
+  const { id, teamName } = useParams();
 
   useEffect(() => {
     const fetchMembers = async () => {
       try {
         const response = await axios.get(
-          `${import.meta.env.VITE_API_URL}/fetch/team/${id}` // Use dynamic `id`
+          `${import.meta.env.VITE_API_URL}/fetch/team/${id}`
         );
-        setMembers(response.data.data); // Update state with fetched data
-        console.log(response.data.data); // Optional: log the response for debugging
+        setMembers(response.data.data);
+        console.log(response.data.data);
       } catch (error) {
-        setError(error.message); // Set error message if the request fails
+        setError(error.message);
       } finally {
-        setLoading(false); // Set loading to false when the request completes
+        setLoading(false);
       }
     };
 
-    fetchMembers(); // Call the function to fetch data
-  }, [id]); // Add `id` as a dependency so the effect runs when the URL parameter changes
+    fetchMembers();
+  }, [id]);
 
   useEffect(() => {
-    window.scrollTo(0, 0); // Scroll to the top when the component mounts
+    window.scrollTo(0, 0);
   }, []);
 
   if (error) {
-    return <div>Error: {error}</div>; // Show error message if there's an error
+    return <div>Error: {error}</div>;
   }
 
   return (
@@ -41,9 +41,9 @@ function TeamDetails() {
         <p className="section-subtitle text-center">
           -Meet the Experts Behind Our Success-
         </p>
-        <h2 className="h2 section-title text-center">Software Team</h2>
+        <h2 className="h2 section-title text-center">{teamName}</h2>
         <p className="section-text text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. */}
         </p>
         {loading && <h1>Loading...</h1>}
         <ul className="grid-list">
@@ -92,9 +92,6 @@ function TeamDetails() {
             </li>
           ))}
         </ul>
-        <a href="#" className="btn btn-primary">
-          Get Started
-        </a>
       </div>
     </section>
   );

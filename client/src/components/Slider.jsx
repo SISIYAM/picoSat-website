@@ -25,7 +25,7 @@ import {
 export default function Slider() {
   return (
     <>
-      <section className="section service" id="gallery" aria-label="service">
+      <section className="section service" id="" aria-label="service">
         <div className="container">
           <Swiper
             cssMode={true}

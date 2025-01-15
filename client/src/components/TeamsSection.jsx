@@ -40,7 +40,7 @@ function TeamsSection() {
           <div className="container">
             <h2 className="h2 section-title text-center">Our Teams</h2>
             <p className="section-text text-center">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. */}
             </p>
             <ul className="grid-list">
               {teamData.map((team, index) => (
@@ -59,7 +59,10 @@ function TeamsSection() {
                     <div className="card-content">
                       <h3 className="h3 card-title">{team.teamName}</h3>
                       <p className="card-text">{team.description}</p>
-                      <Link to={`team/${team._id}`} className="btn-link">
+                      <Link
+                        to={`team/${team.teamName}/${team._id}`}
+                        className="btn-link"
+                      >
                         <span className="span">Read More</span>
                         <ion-icon
                           name="arrow-forward-outline"

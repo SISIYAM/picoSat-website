@@ -37,6 +37,10 @@ const Timeline = () => {
 
   return (
     <div>
+      <h2 className="h2 section-title text-center">Our Journey?</h2>
+      <p className="section-text text-center">
+        {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. */}
+      </p>
       <VerticalTimeline>
         {/* Unlocked Events First */}
 
@@ -60,22 +64,20 @@ const Timeline = () => {
           icon={<FontAwesomeIcon icon={faCheckCircle} />}
           iconOnClick={() =>
             handleOpenModal(
-              "Inception: need find out",
+              "Inception",
               "",
               "The journey of Pico satellite for Bangladesh project started back in 2019, at a two-day convention of NRB (Non-Resident Bangladeshis) engineers held by Economic Relations Division (ERD), A2I (Access to information in Bangladesh) and Bridge 2 Bangladesh jointly. A total of nine business sessions were held in the two-day conference. In the sessions, NRB engineers presented their innovative project proposals. Among those proposals, Professor Dr. Nazmul Ula, Associate Dean and Professor of Electrical and Computer Engineering at Loyola Marymount University in the United States who is also a valiant freedom fighter, shared his thoughts on developing space program in Bangladesh. He said, “The Bangabandhu Satellite-1 is Bangladesh's first geostationary communications and broadcasting satellite, it is of course a big achievement, besides this if we make number of small satellites to monitor the change of climate and weather. We propose to set up a Bangladesh space agency (BASA). Later we can provide training for the young engineers. It’s very effective to give an extra dimension with others developing country”. From there, an idea of developing a series of Pico satellites or cube satellites locally that are low in cost but high in return was developed"
             )
           }
           onTimelineElementClick={() =>
             handleOpenModal(
-              "Inception: need find out",
+              "Inception",
               "",
               "The journey of Pico satellite for Bangladesh project started back in 2019, at a two-day convention of NRB (Non-Resident Bangladeshis) engineers held by Economic Relations Division (ERD), A2I (Access to information in Bangladesh) and Bridge 2 Bangladesh jointly. A total of nine business sessions were held in the two-day conference. In the sessions, NRB engineers presented their innovative project proposals. Among those proposals, Professor Dr. Nazmul Ula, Associate Dean and Professor of Electrical and Computer Engineering at Loyola Marymount University in the United States who is also a valiant freedom fighter, shared his thoughts on developing space program in Bangladesh. He said, “The Bangabandhu Satellite-1 is Bangladesh's first geostationary communications and broadcasting satellite, it is of course a big achievement, besides this if we make number of small satellites to monitor the change of climate and weather. We propose to set up a Bangladesh space agency (BASA). Later we can provide training for the young engineers. It’s very effective to give an extra dimension with others developing country”. From there, an idea of developing a series of Pico satellites or cube satellites locally that are low in cost but high in return was developed"
             )
           }
         >
-          <h3 className="vertical-timeline-element-title">
-            Inception: need find out
-          </h3>
+          <h3 className="vertical-timeline-element-title">Inception</h3>
         </VerticalTimelineElement>
 
         {/* Unlocked Event */}
@@ -130,7 +132,7 @@ const Timeline = () => {
           icon={<FontAwesomeIcon icon={faCheckCircle} />}
           iconOnClick={() =>
             handleOpenModal(
-              "Team Formation: date",
+              "Team Formation",
               "",
               `Under the supervision of Professor Dr. Nazmul Ula, BSMRAAU started Pico Satellite for Bangladesh with 6 teams, namely- Ground Station, Electronics and Power System, Mechanical, Communication, Control and Navigation, Software Team , documentation and finance team. The main objective of this project is to commercialize the manufacture of cube satellites having a 10 cm x 10 cm x 10 cm dimension and weighing not more than 1.3 kg. Besides commercializing the manufacturing process, the project also envisions for -
 •	International collaboration on research in the field of design, development, and launching of CubeSats.  
@@ -139,7 +141,7 @@ const Timeline = () => {
           }
           onTimelineElementClick={() =>
             handleOpenModal(
-              "Team Formation: date",
+              "Team Formation",
               "",
               `Under the supervision of Professor Dr. Nazmul Ula, BSMRAAU started Pico Satellite for Bangladesh with 6 teams, namely- Ground Station, Electronics and Power System, Mechanical, Communication, Control and Navigation, Software Team , documentation and finance team. The main objective of this project is to commercialize the manufacture of cube satellites having a 10 cm x 10 cm x 10 cm dimension and weighing not more than 1.3 kg. Besides commercializing the manufacturing process, the project also envisions for
 
@@ -149,9 +151,7 @@ const Timeline = () => {
             )
           }
         >
-          <h3 className="vertical-timeline-element-title">
-            Team Formation: date
-          </h3>
+          <h3 className="vertical-timeline-element-title">Team Formation</h3>
         </VerticalTimelineElement>
 
         {/* Unlocked Event */}

@@ -15,10 +15,10 @@ export default function App() {
   return (
     <section className="section service" id="partners" aria-label="service">
       <div className="container">
-        <p className="section-subtitle text-center">-Lorem ipsum dolor-</p>
+        {/* <p className="section-subtitle text-center">-Lorem ipsum dolor-</p> */}
         <h2 className="h2 section-title text-center">Our Partners</h2>
         <p className="section-text text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. */}
         </p>
 
         <Swiper

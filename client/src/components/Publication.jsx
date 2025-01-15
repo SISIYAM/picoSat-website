@@ -26,11 +26,11 @@ function Publication() {
     >
       <div className="container">
         <p className="section-subtitle text-center">
-          -Explore Our Insights and Discover Our Expertise-
+          {/* -Explore Our Insights and Discover Our Expertise- */}
         </p>
         <h2 className="h2 section-title text-center">Our Publications</h2>
         <p className="section-text text-center">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          {/* Lorem ipsum dolor sit amet consectetur, adipisicing elit. */}
         </p>
         <ul className="grid-list">
           {publicationData.map((publication, index) => (

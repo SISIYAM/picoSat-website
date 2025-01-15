@@ -10,8 +10,8 @@ function Footer() {
               PicoSat4Bangladesh
             </a>
             <p className="footer-text">
-              Lorem ipsum dolor sit amet consecte tur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore.
+              {/* Lorem ipsum dolor sit amet consecte tur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore. */}
             </p>
             <form action className="newsletter-form">
               <input
@@ -64,7 +64,7 @@ function Footer() {
             <li className="footer-item">
               <ion-icon name="location" aria-hidden="true" />
               <address className="contact-link address">
-                Kazi hall, Lalmonirhat
+                Lalmonirhat,Rangpur
               </address>
             </li>
             <li className="footer-item">
@@ -76,7 +76,7 @@ function Footer() {
             <li className="footer-item">
               <ion-icon name="mail" aria-hidden="true" />
               <a href="mailto:info@hoolix.com" className="contact-link">
-                si31siyam@gmail.com
+                picosat@bsmraau.edu.bd
               </a>
             </li>
             <li className="footer-item">
