@@ -6,8 +6,7 @@ import "swiper/css/pagination";
 
 import pic1 from "../assets/pic-1.jpg";
 import pic2 from "../assets/pic-2.jpg";
-import pic3 from "../assets/pic-3.jpg";
-import pic4 from "../assets/pic-4.jpg";
+
 import img7 from "../assets/images/gallery/img-7.jpeg";
 import img17 from "../assets/images/gallery/img-17.jpeg";
 import img22 from "../assets/images/gallery/img-22.jpeg";
@@ -47,12 +46,7 @@ export default function Slider() {
             <SwiperSlide>
               <img src={pic2} width={"100%"} />
             </SwiperSlide>
-            <SwiperSlide>
-              <img src={pic3} width={"100%"} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={pic4} width={"100%"} />
-            </SwiperSlide>
+
             <SwiperSlide>
               <img src={img22} width={"100%"} />
             </SwiperSlide>
