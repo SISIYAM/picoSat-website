@@ -2,32 +2,39 @@ import React from "react";
 
 const staticLeadersData = [
   {
-    name: "Air Vice Marshal A K M Manirul Bahar, BSP, ndc, hdmc, afwc, psc, ADWC",
-    position: "Chief Patron - Vice Chancellor, BSMRAAU",
-    image: "/chief_patron.jpg",
+    name: "Air Vice Marshal A K M Manirul Bahar, OSP, BSP, ndc, hdmc, afwc, psc, ADWC",
+    rank: "Chief Patron",
+    position: "Vice Chancellor, BSMRAAU",
+    image:
+      "https://bsmraau.edu.bd/public/storage/upload/content/241018080310-6735vc_22.jpg",
   },
   {
-    name: "Air Cdre Md Moinul Hasnain, BUP, ndc, afwc, psc, PEng, Engg",
-    position: "Chief Facilitator - Pro Vice Chancellor, BSMRAAU",
-    image: "/chief_facilitator.jpg",
+    name: "Air Commodore M Neyamul Kabir, BUP, ndc, hdmc, psc, GD(N)",
+    rank: "Chief Facilitator",
+    position: "Pro Vice Chancellor, BSMRAAU",
+    image:
+      "https://bsmraau.edu.bd/public/storage/upload/content/250105074614-5919ProVC Wide.png",
   },
   {
     name: "Dr. Nazmul Ula",
+    rank: "Principal Investigator (PI)",
     position:
-      "Principal Investigator (PI) - Associate Dean and Professor of Electrical and Computer Engineering, Loyola Marymount University, USA",
+      "Associate Dean and Professor of Electrical and Computer Engineering, Loyola Marymount University, USA",
     image: "/principal_investigator.jpg",
   },
   {
-    name: "Air Cdre (Retd) Md Afzal Hossain",
+    name: "Air Cdre (Retd) Md Afzal Hossain, BUP, ndc, psc, Ph.D",
+    rank: "Chief Coordinator and Investigator",
     position:
-      "Chief Coordinator and Investigator - Distinguished Professor and Dean, Faculty of Aviation Operations Management, BSMRAAU",
+      "Distinguished Professor and Dean, Faculty of Aviation Operations Management, BSMRAAU",
     image:
       "https://bsmraau.edu.bd/public/storage/upload/facultyMembers/resize_356X390/221016111428-2983.jpg",
   },
   {
     name: "Md Samin Rahman",
+    rank: "Coordinator and Investigator",
     position:
-      "Coordinator and Investigator - Lecturer, Dept. of Avionics Engineering, BSMRAAU",
+      "Assistant Professor, Faculty of Aviation Engineering and Technology",
     image:
       "https://bsmraau.edu.bd/public/storage/upload/facultyMembers/resize_356X390/221017061045-6106.jpeg",
   },
@@ -66,6 +73,23 @@ function LeadersSection() {
                 </figure>
                 <div className="card-content">
                   <h3 className="h3 card-title">{leader.name}</h3>
+                  <span
+                    style={{
+                      position: "absolute",
+                      top: "5px",
+                      right: "10px",
+                      backgroundColor: "#ff6347",
+                      color: "#fff",
+                      fontSize: "1rem",
+                      fontWeight: "bold",
+                      padding: "5px 10px",
+                      borderRadius: "20px",
+                      boxShadow: "0 2px 4px rgba(0, 0, 0, 0.2)",
+                      zIndex: 1,
+                    }}
+                  >
+                    {leader.rank}
+                  </span>
                   <p className="card-text">{leader.position}</p>
                   <a
                     href="#"

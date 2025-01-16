@@ -56,7 +56,6 @@ const Timeline = () => {
           contentArrowStyle={{
             borderRight: "7px solid #4DBC79",
           }}
-          date=""
           iconStyle={{
             background: "#4DBC79",
             color: "#fff",
@@ -89,7 +88,6 @@ const Timeline = () => {
             backgroundImage: "url('path/to/your/image2.jpg')",
             backgroundSize: "cover", // Ensure image fits element area
           }}
-          date="2008 - 2010"
           iconStyle={{
             background: "#4DBC79",
             color: "#fff",
@@ -124,7 +122,6 @@ const Timeline = () => {
             backgroundImage: "url('path/to/your/image3.jpg')",
             backgroundSize: "cover",
           }}
-          date="April 2013"
           iconStyle={{
             background: "#4DBC79",
             color: "#fff",
@@ -163,7 +160,6 @@ const Timeline = () => {
             backgroundImage: "url('path/to/your/image4.jpg')",
             backgroundSize: "cover",
           }}
-          date="2002 - 2006"
           iconStyle={{
             background: "#4DBC79",
             color: "#fff",
@@ -200,7 +196,6 @@ const Timeline = () => {
             backgroundImage: "url('path/to/your/locked-image1.jpg')",
             backgroundSize: "cover",
           }}
-          date="2010 - 2011"
           iconStyle={{
             background: "#4DBC79",
             color: "#fff",
@@ -235,7 +230,6 @@ const Timeline = () => {
             backgroundImage: "url('path/to/your/locked-image2.jpg')",
             backgroundSize: "cover",
           }}
-          date="2006 - 2008"
           iconStyle={{
             background: "#4DBC79",
             color: "#fff",
@@ -270,7 +264,6 @@ const Timeline = () => {
             backgroundImage: "url('path/to/your/locked-image3.jpg')",
             backgroundSize: "cover",
           }}
-          date="November 2012"
           iconStyle={{
             background: "#4DBC79",
             color: "#fff",
@@ -304,7 +297,6 @@ const Timeline = () => {
             backgroundImage: "url('path/to/your/locked-image3.jpg')",
             backgroundSize: "cover",
           }}
-          date="November 2012"
           iconStyle={{
             background: "#4DBC79",
             color: "#fff",
@@ -338,7 +330,6 @@ const Timeline = () => {
             backgroundImage: "url('path/to/your/locked-image3.jpg')",
             backgroundSize: "cover",
           }}
-          date="November 2012"
           iconStyle={{
             background: "#4DBC79",
             color: "#fff",
@@ -372,7 +363,6 @@ const Timeline = () => {
             backgroundImage: "url('path/to/your/locked-image3.jpg')",
             backgroundSize: "cover",
           }}
-          date="November 2012"
           iconStyle={{
             background: "#4DBC79",
             color: "#fff",
@@ -406,7 +396,6 @@ const Timeline = () => {
             backgroundImage: "url('path/to/your/locked-image3.jpg')",
             backgroundSize: "cover",
           }}
-          date="November 2012"
           iconStyle={{
             background: "gray",
             color: "#fff",
@@ -440,7 +429,6 @@ const Timeline = () => {
             backgroundImage: "url('path/to/your/locked-image3.jpg')",
             backgroundSize: "cover",
           }}
-          date="November 2012"
           iconStyle={{
             background: "gray",
             color: "#fff",
@@ -474,7 +462,6 @@ const Timeline = () => {
             backgroundImage: "url('path/to/your/locked-image3.jpg')",
             backgroundSize: "cover",
           }}
-          date="November 2012"
           iconStyle={{
             background: "gray",
             color: "#fff",
@@ -508,7 +495,6 @@ const Timeline = () => {
             backgroundImage: "url('path/to/your/locked-image3.jpg')",
             backgroundSize: "cover",
           }}
-          date="November 2012"
           iconStyle={{
             background: "gray",
             color: "#fff",
