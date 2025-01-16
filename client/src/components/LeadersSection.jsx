@@ -16,17 +16,25 @@ const staticLeadersData = [
       "https://bsmraau.edu.bd/public/storage/upload/content/250105074614-5919ProVC Wide.png",
   },
   {
+    name: "Air Commodore FORHAD HOSSAIN MAHMUD, BSP,BPP,afwc,psc,pmp",
+    rank: "Chief Facilitator",
+    position: "Dean, Faculty of Aviation Engineering & Technology",
+    image:
+      "https://bsmraau.edu.bd/public/storage/upload/facultyMembers/resize_356X390/241203100952-2982.jpg",
+  },
+  {
     name: "Dr. Nazmul Ula",
     rank: "Principal Investigator (PI)",
     position:
       "Associate Dean and Professor of Electrical and Computer Engineering, Loyola Marymount University, USA",
-    image: "/principal_investigator.jpg",
+    image:
+      "https://cse.lmu.edu/media/lmucse/departments/centerforstudentsuccess/images/Nazmul%20Ula%20214X300.jpg",
   },
   {
     name: "Air Cdre (Retd) Md Afzal Hossain, BUP, ndc, psc, Ph.D",
     rank: "Chief Coordinator and Investigator",
     position:
-      "Distinguished Professor and Dean, Faculty of Aviation Operations Management, BSMRAAU",
+      "Distinguished Professor, Space Communication and Navigation Technology",
     image:
       "https://bsmraau.edu.bd/public/storage/upload/facultyMembers/resize_356X390/221016111428-2983.jpg",
   },
