@@ -25,9 +25,9 @@ export default function ImageGallery() {
 
   const handleClick = (index, item) => setIndex(index);
 
-  if (loading) {
-    return <h1>Loading...</h1>;
-  }
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <section className="section service" id="gallery" aria-label="service">

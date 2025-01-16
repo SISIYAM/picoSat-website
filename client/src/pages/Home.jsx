@@ -28,7 +28,7 @@ function Home() {
       <LeadersSection />
       <TeamsSection />
       <Timeline />
-      <ImageGallery></ImageGallery>
+      {/* <ImageGallery></ImageGallery> */}
       <PartnersCarousel></PartnersCarousel>
 
       {/* Publication Section */}

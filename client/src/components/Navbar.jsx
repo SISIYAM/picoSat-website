@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 function Navbar({ logoName }) {
   const headerRef = useRef(null);
@@ -134,13 +134,16 @@ function Navbar({ logoName }) {
               </a>
             </li>
             <li>
-              <a
+              {/* <a
                 href="#gallery"
                 className="navbar-link"
                 onClick={(e) => handleLinkClick(e, "gallery")}
               >
                 Gallery
-              </a>
+              </a> */}
+              <Link to={"/gallery"} className="navbar-link">
+                Gallery
+              </Link>
             </li>
             <li>
               <a
