@@ -72,7 +72,9 @@ function LeadersSection() {
                   />
                 </figure>
                 <div className="card-content">
-                  <h3 className="h3 card-title">{leader.name}</h3>
+                  <h3 className="h3 card-title" style={{ padding: "10px" }}>
+                    {leader.name}
+                  </h3>
                   <span
                     style={{
                       position: "absolute",
