@@ -36,7 +36,7 @@ const Timeline = () => {
   };
 
   return (
-    <div>
+    <div id="timeline">
       <h2 className="h2 section-title text-center">Our Journey</h2>
       <p className="section-text text-center">
         {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. */}
