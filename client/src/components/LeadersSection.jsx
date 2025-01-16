@@ -13,7 +13,7 @@ const staticLeadersData = [
     rank: "Chief Facilitator",
     position: "Pro Vice Chancellor, BSMRAAU",
     image:
-      "https://bsmraau.edu.bd/public/storage/upload/content/250105074614-5919ProVC Wide.png",
+      "/assets/images/pro_vc.png",
   },
   {
     name: "Air Commodore FORHAD HOSSAIN MAHMUD, BSP,BPP,afwc,psc,pmp",
@@ -32,9 +32,9 @@ const staticLeadersData = [
   },
   {
     name: "Air Cdre (Retd) Md Afzal Hossain, BUP, ndc, psc, Ph.D",
-    rank: "Chief Coordinator and Investigator",
+    rank: "Co Principal Investigator (CO PI)",
     position:
-      "Distinguished Professor, Space Communication and Navigation Technology",
+      "Distinguished Professor,Faculty of Aviation Engineering and Technology",
     image:
       "https://bsmraau.edu.bd/public/storage/upload/facultyMembers/resize_356X390/221016111428-2983.jpg",
   },
