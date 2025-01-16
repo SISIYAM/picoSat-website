@@ -239,14 +239,14 @@ const Timeline = () => {
             handleOpenModal(
               "Purchase of Space Grade CubeSat",
               "",
-              "Description for inception event."
+              "Description"
             )
           }
           onTimelineElementClick={() =>
             handleOpenModal(
               "Purchase of Space Grade CubeSat",
               "",
-              "Description for inception event."
+              "Description"
             )
           }
         >
@@ -273,14 +273,14 @@ const Timeline = () => {
             handleOpenModal(
               "Study of the CMOS Purchased",
               "",
-              "Description for inception event."
+              "Description"
             )
           }
           onTimelineElementClick={() =>
             handleOpenModal(
               "Study of the CMOS Purchased",
               "",
-              "Description for inception event."
+              "Description"
             )
           }
         >
@@ -306,14 +306,14 @@ const Timeline = () => {
             handleOpenModal(
               "Programming the CubeSat and Ground Station",
               "",
-              "Description for inception event."
+              "Description"
             )
           }
           onTimelineElementClick={() =>
             handleOpenModal(
               "Programming the CubeSat and Ground Station",
               "",
-              "Description for inception event."
+              "Description"
             )
           }
         >
@@ -339,14 +339,14 @@ const Timeline = () => {
             handleOpenModal(
               "Constriction of LORA based CubeSat",
               "",
-              "Description for inception event."
+              "Description"
             )
           }
           onTimelineElementClick={() =>
             handleOpenModal(
               "Constriction of LORA based CubeSat",
               "",
-              "Description for inception event."
+              "Description"
             )
           }
         >
@@ -405,14 +405,14 @@ const Timeline = () => {
             handleOpenModal(
               "Publication of Balloon Test Research Paper",
               "",
-              "Description for inception event."
+              "Description"
             )
           }
           onTimelineElementClick={() =>
             handleOpenModal(
               "Publication of Balloon Test Research Paper",
               "",
-              "Description for inception event."
+              "Description"
             )
           }
         >
@@ -438,14 +438,14 @@ const Timeline = () => {
             handleOpenModal(
               "Building Space Grade CubeSat",
               "",
-              "Description for inception event."
+              "Description"
             )
           }
           onTimelineElementClick={() =>
             handleOpenModal(
               "Building Space Grade CubeSat",
               "",
-              "Description for inception event."
+              "Description"
             )
           }
         >
@@ -471,14 +471,14 @@ const Timeline = () => {
             handleOpenModal(
               "Launching the CubeSat",
               "",
-              "Description for inception event."
+              "Description"
             )
           }
           onTimelineElementClick={() =>
             handleOpenModal(
               "Launching the CubeSat",
               "",
-              "Description for inception event."
+              "Description"
             )
           }
         >
@@ -504,14 +504,14 @@ const Timeline = () => {
             handleOpenModal(
               "Commercializing the CubeSats at an affordable price",
               "",
-              "Description for inception event."
+              "Description"
             )
           }
           onTimelineElementClick={() =>
             handleOpenModal(
               "Commercializing the CubeSats at an affordable price",
               "",
-              "Description for inception event."
+              "Description"
             )
           }
         >
