@@ -4,21 +4,21 @@ const staticLeadersData = [
   {
     name: "Air Vice Marshal A K M Manirul Bahar, OSP, BSP, ndc, hdmc, afwc, psc, ADWC",
     rank: "Chief Patron",
-    position: "Vice Chancellor, BSMRAAU",
+    position: "Vice Chancellor, AAUB",
     image:
       "https://bsmraau.edu.bd/public/storage/upload/content/241018080310-6735vc_22.jpg",
   },
   {
     name: "Air Commodore M Neyamul Kabir, BUP, ndc, hdmc, psc, GD(N)",
     rank: "Chief Facilitator",
-    position: "Pro Vice Chancellor, BSMRAAU",
+    position: "Pro Vice Chancellor, AAUB",
     image:
       "/assets/images/pro_vc.png",
   },
   {
     name: "Air Commodore FORHAD HOSSAIN MAHMUD, BSP,BPP,afwc,psc,pmp",
     rank: "Chief Facilitator",
-    position: "Dean, Faculty of Aviation Engineering & Technology",
+    position: "Dean, Faculty of Aviation Engineering & Technology, AAUB",
     image:
       "https://bsmraau.edu.bd/public/storage/upload/facultyMembers/resize_356X390/241203100952-2982.jpg",
   },
@@ -34,7 +34,7 @@ const staticLeadersData = [
     name: "Air Cdre (Retd) Md Afzal Hossain, BUP, ndc, psc, Ph.D",
     rank: "Co Principal Investigator (CO PI)",
     position:
-      "Distinguished Professor,Faculty of Aviation Engineering and Technology",
+      "Distinguished Professor,Faculty of Aviation Engineering and Technology, AAUB",
     image:
       "https://bsmraau.edu.bd/public/storage/upload/facultyMembers/resize_356X390/221016111428-2983.jpg",
   },
@@ -42,7 +42,7 @@ const staticLeadersData = [
     name: "Md Samin Rahman",
     rank: "Coordinator and Investigator",
     position:
-      "Assistant Professor, Faculty of Aviation Engineering and Technology",
+      "Assistant Professor, Faculty of Aviation Engineering and Technology, AAUB",
     image:
       "https://bsmraau.edu.bd/public/storage/upload/facultyMembers/resize_356X390/221017061045-6106.jpeg",
   },
