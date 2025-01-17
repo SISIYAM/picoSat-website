@@ -75,14 +75,6 @@ export default function App() {
               alt="Partner 3"
             />
           </SwiperSlide>
-          <SwiperSlide className="flex justify-center items-center">
-            <img
-              src={img4}
-              width={200}
-              className="object-contain max-w-full max-h-full"
-              alt="Partner 4"
-            />
-          </SwiperSlide>
         </Swiper>
       </div>
     </section>
