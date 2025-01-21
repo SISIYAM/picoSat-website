@@ -26,7 +26,7 @@ function HeroSection({ title, description }) {
         </div>
         <figure className="hero-banner">
           <img
-            src="/assets/images/picosat.png"
+            src="/assets/images/pico_aaub.png"
             width={650}
             height={650}
             alt="hero banner"

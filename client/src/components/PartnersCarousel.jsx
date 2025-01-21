@@ -7,9 +7,8 @@ import { Autoplay, Navigation } from "swiper/modules";
 
 // Import images
 import img1 from "../assets/images/partners/b2b.jpg";
-import img2 from "../assets/images/partners/bsmraau_logo.png";
+import img2 from "../assets/AAUB.png";
 import img3 from "../assets/images/partners/img-1.png";
-import img4 from "../assets/images/partners/ric.png";
 
 export default function App() {
   return (
